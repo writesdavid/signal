@@ -470,7 +470,7 @@ def render_html(items: list[dict[str, Any]], date: Optional[str] = None) -> str:
       btn.disabled = true;
       btn.textContent = '...';
       try {{
-        const res = await fetch('https://signal-subscribe.writesdavid.workers.dev', {{
+        const res = await fetch('https://signal-subscribe.davehamiltonj.workers.dev', {{
           method: 'POST',
           headers: {{'Content-Type': 'application/json'}},
           body: JSON.stringify({{ email }}),
