@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Run signal from anywhere: ./run pull, ./run today, ./run top
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PYTHONPATH="$SCRIPT_DIR/src" "$SCRIPT_DIR/.venv/bin/python3" -m signalfeed.cli "$@"

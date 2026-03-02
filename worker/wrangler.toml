@@ -1,0 +1,6 @@
+name = "signal-subscribe"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+# Set secrets via: wrangler secret put RESEND_API_KEY
+#                  wrangler secret put RESEND_AUDIENCE_ID
