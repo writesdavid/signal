@@ -1,5 +1,6 @@
 import httpx
 from typing import Any
+from .utils import unix_cutoff
 
 ALGOLIA_URL = "https://hn.algolia.com/api/v1/search"
 QUERIES = [
@@ -20,7 +21,7 @@ def fetch_hackernews(limit: int = 10) -> list[dict[str, Any]]:
             params = {
                 "query": query,
                 "tags": "story",
-                "numericFilters": "points>50",
+                "numericFilters": f"points>50,created_at_i>{unix_cutoff()}",
                 "hitsPerPage": 5,
             }
             try:

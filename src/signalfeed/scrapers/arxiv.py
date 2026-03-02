@@ -1,6 +1,7 @@
 import httpx
 from typing import Any
 from xml.etree import ElementTree as ET
+from .utils import is_recent
 
 SEARCH_URL = "https://export.arxiv.org/api/query"
 
@@ -48,6 +49,9 @@ def fetch_arxiv(limit: int = 10) -> list[dict[str, Any]]:
                 title = (entry.findtext("atom:title", namespaces=NS) or "").strip().replace("\n", " ")
                 abstract = (entry.findtext("atom:summary", namespaces=NS) or "").strip()[:1000]
                 published = entry.findtext("atom:published", namespaces=NS) or ""
+
+                if not is_recent(published):
+                    continue
 
                 items.append({
                     "source": "arxiv",

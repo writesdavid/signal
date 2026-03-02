@@ -1,5 +1,6 @@
 import feedparser
 from typing import Any
+from .utils import is_recent
 
 FEED_URL = "https://huggingface.co/blog/feed.xml"
 
@@ -18,6 +19,9 @@ def fetch_huggingface(limit: int = 10) -> list[dict[str, Any]]:
     for entry in feed.entries:
         if len(items) >= limit:
             break
+
+        if not is_recent(entry.get("published", "")):
+            continue
 
         text = (entry.title + " " + entry.get("summary", "")).lower()
         if not any(kw in text for kw in KEYWORDS):
