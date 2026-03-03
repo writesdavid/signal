@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Signal — March 02, 2026</title>
+  <title>Signal — March 03, 2026</title>
   <meta name="description" content="AI-digested language + LLM research for engineers and practitioners." />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -344,9 +344,9 @@
     <h1>Language + LLM<br>Research</h1>
     <p class="subtitle">AI-digested highlights for engineers and practitioners<br>who care about language.</p>
     <div class="meta-row">
-      <span>March 02, 2026</span>
+      <span>March 03, 2026</span>
       <span class="sep">·</span>
-      <span>6 items</span>
+      <span>7 items</span>
       <span class="sep">·</span>
       <span>arXiv · HuggingFace · HN · Reddit</span>
     </div>
@@ -374,7 +374,7 @@
         <div class="card-summary">
           <span class="index">01</span>
           <div class="card-main">
-            <span class="headline">DARE-bench Tests LLMs</span>
+            <span class="headline">LongRLVR Improves Context Rewards</span>
             <div class="card-meta">
               <span class="source">arXiv</span>
               <span class="dot">·</span>
@@ -386,11 +386,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">DARE-bench is a benchmark for evaluating large language models in data science tasks, focusing on instruction fidelity and process awareness. It consists of 6,300 tasks with verifiable ground truth, and initial evaluations show that even capable models struggle to achieve good performance.</p>
-        <p class="why-text">DARE-bench provides a standardized way to evaluate LLMs in data science tasks, which is crucial for developing reliable and efficient models for real-world applications.</p>
+        <p class="summary-text">LongRLVR is a new approach to reinforcement learning that addresses the limitations of existing methods in long-context scenarios by introducing a dense and verifiable context reward. This auxiliary signal helps the model to identify relevant evidence and reason over externally provided information more effectively.</p>
+        <p class="why-text">LongRLVR's ability to provide a robust learning signal for contextual grounding can significantly improve the performance of large language models in tasks that require reasoning over external information.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#evals</span><span class="tag">#fine-tuning</span><span class="tag">#efficiency</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2602.24288v1" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#reasoning</span><span class="tag">#reinforcement learning</span><span class="tag">#efficiency</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2603.02146v1" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -400,7 +400,7 @@
         <div class="card-summary">
           <span class="index">02</span>
           <div class="card-main">
-            <span class="headline">LLMs Don't Need Own Words</span>
+            <span class="headline">LLMs Tested in Geopolitical Sims</span>
             <div class="card-meta">
               <span class="source">arXiv</span>
               <span class="dot">·</span>
@@ -412,11 +412,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Researchers tested if large language models benefit from their own past responses in conversations. They found that omitting prior assistant responses doesn't affect response quality in many cases, reducing context lengths by up to 10x.</p>
-        <p class="why-text">This finding has implications for efficient conversation design and context management in language models, potentially simplifying and speeding up interactions.</p>
+        <p class="summary-text">Researchers evaluated six large language models in geopolitical simulations, comparing their decisions and justifications to human results. The models approximated human decision patterns initially, but diverged over time, displaying distinct behavioral profiles and strategy updates.</p>
+        <p class="why-text">This research matters because it sheds light on the potential and limitations of using large language models as strategic actors in high-stakes decision-making environments, such as geopolitical simulations.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#prompting</span><span class="tag">#evals</span><span class="tag">#efficiency</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2602.24287v1" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#agents</span><span class="tag">#reasoning</span><span class="tag">#safety</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2603.02128v1" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -426,7 +426,33 @@
         <div class="card-summary">
           <span class="index">03</span>
           <div class="card-main">
-            <span class="headline">AI Generates CUDA Code</span>
+            <span class="headline">Scalable Reasoning Data Generator</span>
+            <div class="card-meta">
+              <span class="source">arXiv</span>
+              <span class="dot">·</span>
+              <span class="impact-dots" style="color:#ff9f0a">●●●●○</span>
+              <span class="impact-label" style="color:#ff9f0a">Significant</span>
+            </div>
+          </div>
+          <span class="chevron">›</span>
+        </div>
+      </summary>
+      <div class="card-body">
+        <p class="summary-text">Reasoning Core is a procedural data generation suite that produces verifiable symbolic reasoning data across various formal domains. It allows for continuous difficulty control and provides solver-derived reasoning traces for supervised training and reinforcement learning.</p>
+        <p class="why-text">This matters for language models because it enables the generation of diverse, verifiable data for training and evaluating reasoning capabilities at scale.</p>
+        <div class="card-footer">
+          <div class="tags"><span class="tag">#reasoning</span><span class="tag">#fine-tuning</span><span class="tag">#efficiency</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2603.02208v1" target="_blank" rel="noopener">Read &rarr;</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <div class="card-summary">
+          <span class="index">04</span>
+          <div class="card-main">
+            <span class="headline">Verified Rewards Boost TTRL</span>
             <div class="card-meta">
               <span class="source">arXiv</span>
               <span class="dot">·</span>
@@ -438,11 +464,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">CUDA Agent is a reinforcement learning system that generates high-performance CUDA kernels. It achieves state-of-the-art performance by developing CUDA kernel expertise through a scalable data synthesis pipeline and skill-augmented development environment.</p>
-        <p class="why-text">This matters for code generation at scale because it enables the creation of high-performance CUDA kernels without requiring deep hardware expertise.</p>
+        <p class="summary-text">Researchers propose T^3RL, a method to verify rewards in test-time reinforcement learning using external tools. This approach improves the reliability of pseudo-labels and significantly outperforms traditional TTRL across various math problems.</p>
+        <p class="why-text">This work matters because it enables more accurate and reliable online adaptation of large reasoning models, which is crucial for real-world applications of reinforcement learning at scale.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#code-gen</span><span class="tag">#efficiency</span><span class="tag">#agents</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2602.24286v1" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#reasoning</span><span class="tag">#safety</span><span class="tag">#efficiency</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2603.02203v1" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -450,22 +476,48 @@
     <details class="card">
       <summary>
         <div class="card-summary">
-          <span class="index">04</span>
+          <span class="index">05</span>
           <div class="card-main">
-            <span class="headline">Mixture of Experts in Transformers</span>
+            <span class="headline">Safe Policy Control</span>
             <div class="card-meta">
-              <span class="source">HuggingFace</span>
+              <span class="source">arXiv</span>
               <span class="dot">·</span>
               <span class="impact-dots" style="color:#ff9f0a">●●●●○</span>
-              <span class="impact-label" style="color:#ff9f0a">Major</span>
+              <span class="impact-label" style="color:#ff9f0a">Significant</span>
             </div>
           </div>
           <span class="chevron">›</span>
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">This research explores the integration of Mixture of Experts (MoEs) into Transformer architectures, allowing for more efficient and scalable models. The approach enables the use of specialized expert models for specific tasks, leading to improved performance and reduced computational requirements.</p>
-        <p class="why-text">This matters for code and language models as it enables the development of more efficient and scalable models that can handle complex tasks with improved performance and reduced computational requirements.</p>
+        <p class="summary-text">Conformal Policy Control is a method that regulates new policies by comparing them to a safe reference policy, determining how aggressively they can act while enforcing user-declared risk tolerance. This approach has been tested in various applications, including natural language question answering and biomolecular engineering, and provides finite-sample guarantees for non-monotonic bounded constraint functions.</p>
+        <p class="why-text">This research matters because it enables the development of safer and more reliable AI agents that can explore and improve in high-stakes environments without causing harm.</p>
+        <div class="card-footer">
+          <div class="tags"><span class="tag">#safety</span><span class="tag">#agents</span><span class="tag">#reasoning</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2603.02196v1" target="_blank" rel="noopener">Read &rarr;</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <div class="card-summary">
+          <span class="index">06</span>
+          <div class="card-main">
+            <span class="headline">Mixture of Experts in AI</span>
+            <div class="card-meta">
+              <span class="source">HuggingFace</span>
+              <span class="dot">·</span>
+              <span class="impact-dots" style="color:#ff9f0a">●●●●○</span>
+              <span class="impact-label" style="color:#ff9f0a">Significant</span>
+            </div>
+          </div>
+          <span class="chevron">›</span>
+        </div>
+      </summary>
+      <div class="card-body">
+        <p class="summary-text">Researchers applied Mixture of Experts to Transformers, allowing models to specialize in specific tasks. This approach improved efficiency and performance by dynamically allocating experts to process different parts of the input data.</p>
+        <p class="why-text">This matters for code because it enables more efficient and scalable language models that can handle diverse tasks and datasets.</p>
         <div class="card-footer">
           <div class="tags"><span class="tag">#efficiency</span><span class="tag">#transformers</span><span class="tag">#fine-tuning</span></div>
           <a class="read-link" href="https://huggingface.co/blog/moe-transformers" target="_blank" rel="noopener">Read &rarr;</a>
@@ -476,35 +528,9 @@
     <details class="card">
       <summary>
         <div class="card-summary">
-          <span class="index">05</span>
+          <span class="index">07</span>
           <div class="card-main">
-            <span class="headline">VLM on Edge Devices</span>
-            <div class="card-meta">
-              <span class="source">HuggingFace</span>
-              <span class="dot">·</span>
-              <span class="impact-dots" style="color:#ff9f0a">●●●●○</span>
-              <span class="impact-label" style="color:#ff9f0a">Significant</span>
-            </div>
-          </div>
-          <span class="chevron">›</span>
-        </div>
-      </summary>
-      <div class="card-body">
-        <p class="summary-text">Researchers deployed open-source vision language models on NVIDIA Jetson devices, enabling efficient processing of multimodal data. This deployment allows for real-time image and text analysis on edge devices, expanding the potential applications of VLMs.</p>
-        <p class="why-text">This deployment matters because it enables developers to run complex vision language models on low-power edge devices, reducing latency and increasing efficiency in applications like robotics and autonomous systems.</p>
-        <div class="card-footer">
-          <div class="tags"><span class="tag">#multimodal</span><span class="tag">#efficiency</span><span class="tag">#agents</span></div>
-          <a class="read-link" href="https://huggingface.co/blog/nvidia/cosmos-on-jetson" target="_blank" rel="noopener">Read &rarr;</a>
-        </div>
-      </div>
-    </details>
-
-    <details class="card">
-      <summary>
-        <div class="card-summary">
-          <span class="index">06</span>
-          <div class="card-main">
-            <span class="headline">AI Agent Plans Company Retreats</span>
+            <span class="headline">AI Plans Company Retreats</span>
             <div class="card-meta">
               <span class="source">Hacker News</span>
               <span class="dot">·</span>
@@ -516,8 +542,8 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">TeamOut's AI agent plans company events through conversation, handling venue sourcing, vendor coordination, and more. The system aims to simplify event planning from start to finish.</p>
-        <p class="why-text">This technology matters for code because it demonstrates the potential for AI to automate complex, high-touch tasks like event planning, freeing up human time for more strategic work.</p>
+        <p class="summary-text">TeamOut's AI agent plans company events through conversation, handling venue sourcing and vendor coordination. The system builds itineraries and estimates flight costs, managing projects from start to finish.</p>
+        <p class="why-text">This technology can simplify event planning for companies, potentially integrating with language models to improve customer service and user experience.</p>
         <div class="card-footer">
           <div class="tags"><span class="tag">#agents</span><span class="tag">#safety</span><span class="tag">#efficiency</span></div>
           <a class="read-link" href="https://app.teamout.com/ai" target="_blank" rel="noopener">Read &rarr;</a>
@@ -541,7 +567,7 @@
       btn.disabled = true;
       btn.textContent = '...';
       try {
-        const res = await fetch('https://signal-subscribe.writesdavid.workers.dev', {
+        const res = await fetch('https://signal-subscribe.davehamiltonj.workers.dev', {
           method: 'POST',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({ email }),
