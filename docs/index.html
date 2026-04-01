@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Signal — March 31, 2026</title>
+  <title>Signal — April 01, 2026</title>
   <meta name="description" content="AI-digested language + LLM research for engineers and practitioners." />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -344,9 +344,9 @@
     <h1>Language + LLM<br>Research</h1>
     <p class="subtitle">AI-digested highlights for engineers and practitioners<br>who care about language.</p>
     <div class="meta-row">
-      <span>March 31, 2026</span>
+      <span>April 01, 2026</span>
       <span class="sep">·</span>
-      <span>6 items</span>
+      <span>11 items</span>
       <span class="sep">·</span>
       <span>arXiv · HuggingFace · HN · Reddit</span>
     </div>
@@ -374,7 +374,85 @@
         <div class="card-summary">
           <span class="index">01</span>
           <div class="card-main">
-            <span class="headline">OpenAI Launches Safety Bug Bounty</span>
+            <span class="headline">AI Agents Get Cognitive Friction</span>
+            <div class="card-meta">
+              <span class="source">arXiv</span>
+              <span class="dot">·</span>
+              <span class="impact-dots" style="color:#ffd60a">●●●○○</span>
+              <span class="impact-label" style="color:#ffd60a">Significant</span>
+            </div>
+          </div>
+          <span class="chevron">›</span>
+        </div>
+      </summary>
+      <div class="card-body">
+        <p class="summary-text">The Triadic Cognitive Architecture introduces a mathematical framework to ground machine reasoning in physics, addressing issues with current autonomous AI agents. It proposes a concept of Cognitive Friction to limit agentic loops and improve decision-making in interactive environments.</p>
+        <p class="why-text">This research matters because it provides a new approach to designing more robust and efficient autonomous AI agents that can operate effectively in complex, dynamic environments.</p>
+        <div class="card-footer">
+          <div class="tags"><span class="tag">#reasoning</span><span class="tag">#agents</span><span class="tag">#safety</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2603.30031v1" target="_blank" rel="noopener">Read &rarr;</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <div class="card-summary">
+          <span class="index">02</span>
+          <div class="card-main">
+            <span class="headline">Context Matters</span>
+            <div class="card-meta">
+              <span class="source">arXiv</span>
+              <span class="dot">·</span>
+              <span class="impact-dots" style="color:#ffd60a">●●●○○</span>
+              <span class="impact-label" style="color:#ffd60a">Significant</span>
+            </div>
+          </div>
+          <span class="chevron">›</span>
+        </div>
+      </summary>
+      <div class="card-body">
+        <p class="summary-text">ContextClaim is a new approach to verifiable claim detection that considers the context of a claim, including entities and events it refers to. It retrieves relevant information from Wikipedia to support verification, improving detection accuracy.</p>
+        <p class="why-text">This matters for fact-checking and claim verification at scale, as it can reduce the burden on downstream verification components and improve the accuracy of automated fact-checking systems.</p>
+        <div class="card-footer">
+          <div class="tags"><span class="tag">#evals</span><span class="tag">#safety</span><span class="tag">#reasoning</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2603.30025v1" target="_blank" rel="noopener">Read &rarr;</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <div class="card-summary">
+          <span class="index">03</span>
+          <div class="card-main">
+            <span class="headline">Optimizing Chain-of-Thought</span>
+            <div class="card-meta">
+              <span class="source">arXiv</span>
+              <span class="dot">·</span>
+              <span class="impact-dots" style="color:#ffd60a">●●●○○</span>
+              <span class="impact-label" style="color:#ffd60a">Significant</span>
+            </div>
+          </div>
+          <span class="chevron">›</span>
+        </div>
+      </summary>
+      <div class="card-body">
+        <p class="summary-text">Researchers propose a framework to predict when Chain-of-Thought monitoring can be safely optimized, by analyzing the alignment of reward terms in language model training. The framework classifies reward terms as aligned, orthogonal, or in-conflict, and predicts their impact on monitorability.</p>
+        <p class="why-text">This research matters because it helps developers understand how to optimize Chain-of-Thought monitoring in language models, which is crucial for ensuring the reliability and transparency of AI systems.</p>
+        <div class="card-footer">
+          <div class="tags"><span class="tag">#reasoning</span><span class="tag">#safety</span><span class="tag">#fine-tuning</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2603.30036v1" target="_blank" rel="noopener">Read &rarr;</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <div class="card-summary">
+          <span class="index">04</span>
+          <div class="card-main">
+            <span class="headline">OpenAI Model Spec</span>
             <div class="card-meta">
               <span class="source">openai</span>
               <span class="dot">·</span>
@@ -386,11 +464,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">OpenAI introduced a Safety Bug Bounty program to identify and mitigate AI safety risks. The program aims to detect vulnerabilities such as agentic risks, prompt injection, and data exfiltration.</p>
-        <p class="why-text">This program matters because it helps ensure the safe deployment of language models by identifying and addressing potential security risks and vulnerabilities.</p>
+        <p class="summary-text">OpenAI's Model Spec is a public framework for model behavior, aiming to balance safety, user freedom, and accountability. It provides a structured approach to model development and deployment, ensuring responsible AI advancement.</p>
+        <p class="why-text">This matters for language models as it provides a framework for developing and deploying AI systems that prioritize safety, freedom, and accountability at scale.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#safety</span><span class="tag">#agents</span></div>
-          <a class="read-link" href="https://openai.com/index/safety-bug-bounty" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#safety</span><span class="tag">#fine-tuning</span><span class="tag">#language-design</span></div>
+          <a class="read-link" href="https://openai.com/index/our-approach-to-the-model-spec" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -398,7 +476,7 @@
     <details class="card">
       <summary>
         <div class="card-summary">
-          <span class="index">02</span>
+          <span class="index">05</span>
           <div class="card-main">
             <span class="headline">AI Harmful Manipulation Risks</span>
             <div class="card-meta">
@@ -412,7 +490,7 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">DeepMind researches AI's potential for harmful manipulation in areas like finance and health. The study leads to new safety measures to protect people from these risks.</p>
+        <p class="summary-text">DeepMind researches AI's potential for harmful manipulation in areas like finance and health. The research leads to the development of new safety measures to protect people from these risks.</p>
         <p class="why-text">This research matters because it helps develop safety measures to prevent AI from being used for harmful manipulation, particularly in sensitive areas like finance and health.</p>
         <div class="card-footer">
           <div class="tags"><span class="tag">#safety</span><span class="tag">#agents</span></div>
@@ -424,7 +502,7 @@
     <details class="card">
       <summary>
         <div class="card-summary">
-          <span class="index">03</span>
+          <span class="index">06</span>
           <div class="card-main">
             <span class="headline">Segment Anything Model 3</span>
             <div class="card-meta">
@@ -438,8 +516,8 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Meta AI introduces Segment Anything Model 3, a computer vision model that can segment objects in images. The model achieves state-of-the-art results on various benchmarks, demonstrating its ability to accurately identify and isolate objects within complex scenes.</p>
-        <p class="why-text">This model's ability to accurately segment objects in images has significant implications for applications such as image editing, robotics, and autonomous vehicles, where precise object recognition is crucial.</p>
+        <p class="summary-text">The Segment Anything Model 3 is a new computer vision model that can segment any object in an image. It achieves state-of-the-art results on various benchmarks, demonstrating its ability to accurately identify and separate objects from their backgrounds.</p>
+        <p class="why-text">This model's ability to accurately segment objects has significant implications for applications such as image editing, robotics, and autonomous vehicles, where precise object recognition is crucial.</p>
         <div class="card-footer">
           <div class="tags"><span class="tag">#multimodal</span><span class="tag">#efficiency</span><span class="tag">#safety</span></div>
           <a class="read-link" href="https://ai.meta.com/blog/segment-anything-model-3/" target="_blank" rel="noopener">Read &rarr;</a>
@@ -450,9 +528,61 @@
     <details class="card">
       <summary>
         <div class="card-summary">
-          <span class="index">04</span>
+          <span class="index">07</span>
           <div class="card-main">
-            <span class="headline">OpenAI Model Spec Released</span>
+            <span class="headline">AI Identifies Parallel Loops</span>
+            <div class="card-meta">
+              <span class="source">arXiv</span>
+              <span class="dot">·</span>
+              <span class="impact-dots" style="color:#0a84ff">●●○○○</span>
+              <span class="impact-label" style="color:#0a84ff">Noteworthy</span>
+            </div>
+          </div>
+          <span class="chevron">›</span>
+        </div>
+      </summary>
+      <div class="card-body">
+        <p class="summary-text">This research proposes a Transformer-based approach to classify the parallelization potential of source code, focusing on distinguishing independent loops from undefined ones. The approach uses DistilBERT to process source code sequences and achieves high performance on a balanced dataset.</p>
+        <p class="why-text">This matters for code-gen and efficiency as it enables better parallelization of loops, leading to improved performance in multi-core architectures.</p>
+        <div class="card-footer">
+          <div class="tags"><span class="tag">#code-gen</span><span class="tag">#efficiency</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2603.30040v1" target="_blank" rel="noopener">Read &rarr;</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <div class="card-summary">
+          <span class="index">08</span>
+          <div class="card-main">
+            <span class="headline">Speech Rate Boosts Intelligibility</span>
+            <div class="card-meta">
+              <span class="source">arXiv</span>
+              <span class="dot">·</span>
+              <span class="impact-dots" style="color:#0a84ff">●●○○○</span>
+              <span class="impact-label" style="color:#0a84ff">Noteworthy</span>
+            </div>
+          </div>
+          <span class="chevron">›</span>
+        </div>
+      </summary>
+      <div class="card-body">
+        <p class="summary-text">Researchers used machine-generated speech to examine how speech-rate adjustments improve comprehension, finding a scissor-like pattern of temporal influence. This pattern was stable across native and non-native English listeners.</p>
+        <p class="why-text">This study's findings on speech rate and intelligibility can inform the development of more effective language models and speech synthesis systems for diverse listener populations.</p>
+        <div class="card-footer">
+          <div class="tags"><span class="tag">#language-design</span><span class="tag">#safety</span><span class="tag">#efficiency</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2603.30032v1" target="_blank" rel="noopener">Read &rarr;</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <div class="card-summary">
+          <span class="index">09</span>
+          <div class="card-main">
+            <span class="headline">AI Manages Bank Accounts</span>
             <div class="card-meta">
               <span class="source">openai</span>
               <span class="dot">·</span>
@@ -464,11 +594,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">OpenAI's Model Spec is a public framework for model behavior, aiming to balance safety, user freedom, and accountability. The framework provides a structured approach to model development and deployment, addressing key concerns as AI systems advance.</p>
-        <p class="why-text">This framework matters for code and language models as it provides a structured approach to balancing safety and user freedom, influencing the development of more responsible AI systems.</p>
+        <p class="summary-text">Gradient Labs uses OpenAI's GPT models to power AI agents that automate banking support workflows. The AI agents provide low-latency and high-reliability support to bank customers.</p>
+        <p class="why-text">This matters because it demonstrates the potential for AI to efficiently manage customer support at scale in the banking industry.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#safety</span><span class="tag">#fine-tuning</span><span class="tag">#language-design</span></div>
-          <a class="read-link" href="https://openai.com/index/our-approach-to-the-model-spec" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#agents</span><span class="tag">#efficiency</span><span class="tag">#safety</span></div>
+          <a class="read-link" href="https://openai.com/index/gradient-labs" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -476,7 +606,7 @@
     <details class="card">
       <summary>
         <div class="card-summary">
-          <span class="index">05</span>
+          <span class="index">10</span>
           <div class="card-main">
             <span class="headline">Gemini 3.1 Improves Audio AI</span>
             <div class="card-meta">
@@ -490,8 +620,8 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Deepmind's Gemini 3.1 voice model enhances audio AI with improved precision and lower latency. This update makes voice interactions more fluid, natural, and precise, allowing for more reliable voice-based applications.</p>
-        <p class="why-text">This matters for language models as it enables more natural and efficient voice-based interactions at scale.</p>
+        <p class="summary-text">Gemini 3.1 is an updated voice model with improved precision and lower latency. It aims to make voice interactions more fluid, natural, and precise, enhancing the overall user experience.</p>
+        <p class="why-text">This matters for language models as it enables more natural and reliable voice interactions, improving the usability of voice-based interfaces at scale.</p>
         <div class="card-footer">
           <div class="tags"><span class="tag">#safety</span><span class="tag">#efficiency</span><span class="tag">#agents</span></div>
           <a class="read-link" href="https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/" target="_blank" rel="noopener">Read &rarr;</a>
@@ -502,7 +632,7 @@
     <details class="card">
       <summary>
         <div class="card-summary">
-          <span class="index">06</span>
+          <span class="index">11</span>
           <div class="card-main">
             <span class="headline">Tribe V2 Model Released</span>
             <div class="card-meta">
@@ -517,7 +647,7 @@
       </summary>
       <div class="card-body">
         <p class="summary-text">Meta AI introduces Tribe V2, a predictive foundation model that improves upon its predecessor. The model demonstrates enhanced performance in various tasks, showcasing its potential for real-world applications.</p>
-        <p class="why-text">This matters for language models as it shows how incremental updates can lead to significant performance improvements in predictive tasks.</p>
+        <p class="why-text">This matters for language models as it highlights the progress in developing more accurate and reliable predictive models that can be applied to various tasks and industries.</p>
         <div class="card-footer">
           <div class="tags"><span class="tag">#fine-tuning</span><span class="tag">#language-design</span><span class="tag">#efficiency</span></div>
           <a class="read-link" href="https://ai.meta.com/blog/tribe-v2-brain-predictive-foundation-model/" target="_blank" rel="noopener">Read &rarr;</a>
