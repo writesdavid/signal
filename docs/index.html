@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Signal — April 03, 2026</title>
+  <title>Signal — April 06, 2026</title>
   <meta name="description" content="AI-digested language + LLM research for engineers and practitioners." />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -344,7 +344,7 @@
     <h1>Language + LLM<br>Research</h1>
     <p class="subtitle">AI-digested highlights for engineers and practitioners<br>who care about language.</p>
     <div class="meta-row">
-      <span>April 03, 2026</span>
+      <span>April 06, 2026</span>
       <span class="sep">·</span>
       <span>9 items</span>
       <span class="sep">·</span>
@@ -374,7 +374,7 @@
         <div class="card-summary">
           <span class="index">01</span>
           <div class="card-main">
-            <span class="headline">Better Token Initialization</span>
+            <span class="headline">RL Training Dynamics</span>
             <div class="card-meta">
               <span class="source">arXiv</span>
               <span class="dot">·</span>
@@ -386,11 +386,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Researchers analyzed the standard practice of initializing new vocabulary tokens in language models and found that it collapses inter-token distinctions. They propose a new method, Grounded Token Initialization, to better leverage general-purpose knowledge for novel-token domains.</p>
-        <p class="why-text">This matters because improving token initialization can enhance the performance of language models in domain-specific tasks, such as generative recommendation, by preserving inter-token distinctions.</p>
+        <p class="summary-text">Researchers propose a framework to investigate the effects of reinforcement learning on multimodal reasoning models, focusing on model hallucination. The framework introduces corruptions to force models to reason by hallucination, providing insights into RL training dynamics.</p>
+        <p class="why-text">This study helps practitioners understand how reinforcement learning affects multimodal models' ability to reason with visual information, which is crucial for developing reliable and accurate models.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#tokenization</span><span class="tag">#fine-tuning</span><span class="tag">#language-design</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2604.02324v1" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#multimodal</span><span class="tag">#reasoning</span><span class="tag">#safety</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2604.03179v1" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -400,7 +400,7 @@
         <div class="card-summary">
           <span class="index">02</span>
           <div class="card-main">
-            <span class="headline">LLMs Lack Interaction Awareness</span>
+            <span class="headline">LLMs Hallucinate Citations</span>
             <div class="card-meta">
               <span class="source">arXiv</span>
               <span class="dot">·</span>
@@ -412,11 +412,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Researchers propose a new benchmark to evaluate language models' interaction awareness by generating user turns in conversations. The study found that interaction awareness is decoupled from task accuracy, with even highly accurate models struggling to generate meaningful follow-ups.</p>
-        <p class="why-text">This matters for code and language models because it highlights a critical gap in current evaluation methods and the need for more nuanced assessments of model capabilities.</p>
+        <p class="summary-text">Researchers analyzed citation URLs from large language models and found that 3-13% are hallucinated and 5-18% are non-resolving. The study reveals domain effects and varying hallucination rates among models.</p>
+        <p class="why-text">This study matters because it highlights the need for reliable citation validation in language models to ensure the accuracy and trustworthiness of generated content.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#evals</span><span class="tag">#language-design</span><span class="tag">#reasoning</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2604.02315v1" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#safety</span><span class="tag">#evals</span><span class="tag">#reasoning</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2604.03173v1" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -426,7 +426,7 @@
         <div class="card-summary">
           <span class="index">03</span>
           <div class="card-main">
-            <span class="headline">Multi-Agent Action Control</span>
+            <span class="headline">Federated Learning Robustness Boost</span>
             <div class="card-meta">
               <span class="source">arXiv</span>
               <span class="dot">·</span>
@@ -438,11 +438,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">ActionParty is a world model for generative video games that can control multiple agents simultaneously. It introduces subject state tokens to associate specific actions with their corresponding subjects, achieving better action binding in video diffusion models.</p>
-        <p class="why-text">This matters for code because it enables more realistic and interactive simulations in video games and other virtual environments, with potential applications in areas like game development and AI training.</p>
+        <p class="summary-text">This research proposes a server learning approach to enhance federated learning robustness against malicious attacks. The method achieves significant model accuracy improvements even with a high fraction of malicious clients and limited server data.</p>
+        <p class="why-text">This matters for code because it enables more secure and reliable federated learning systems, even in the presence of malicious clients.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#agents</span><span class="tag">#multimodal</span><span class="tag">#reasoning</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2604.02330v1" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#safety</span><span class="tag">#efficiency</span><span class="tag">#agents</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2604.03226v1" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -452,7 +452,7 @@
         <div class="card-summary">
           <span class="index">04</span>
           <div class="card-main">
-            <span class="headline">Steerable Visual Models</span>
+            <span class="headline">Evaluating Model Confidence</span>
             <div class="card-meta">
               <span class="source">arXiv</span>
               <span class="dot">·</span>
@@ -464,11 +464,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Researchers introduce Steerable Visual Representations, a new class of visual representations that can be directed with natural language. This approach allows for more flexible and controlled visual representations, which can be applied to various downstream tasks.</p>
-        <p class="why-text">This matters for code because it enables more precise control over visual models, allowing for more effective and efficient image analysis and processing at scale.</p>
+        <p class="summary-text">The Behavioral Alignment Score (BAS) is a new metric for evaluating large language model confidence, focusing on abstention-aware decision making. BAS measures decision-level reliability by aggregating realized utility across different risk thresholds, linking calibration to decision-optimal behavior.</p>
+        <p class="why-text">This matters because it provides a more nuanced approach to evaluating language model confidence, allowing for more informed decision-making in high-stakes applications.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#multimodal</span><span class="tag">#reasoning</span><span class="tag">#fine-tuning</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2604.02327v1" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#evals</span><span class="tag">#safety</span><span class="tag">#reasoning</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2604.03216v1" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -478,7 +478,7 @@
         <div class="card-summary">
           <span class="index">05</span>
           <div class="card-main">
-            <span class="headline">Efficient Reasoning Model</span>
+            <span class="headline">Agentic AI learns from squirrels</span>
             <div class="card-meta">
               <span class="source">arXiv</span>
               <span class="dot">·</span>
@@ -490,11 +490,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Batched Contextual Reinforcement is a new training paradigm that enables efficient reasoning in large language models by solving multiple problems simultaneously. This approach reduces token consumption and improves inference efficiency without degrading reasoning quality.</p>
-        <p class="why-text">This matters because it allows for more efficient use of language models in real-world applications where computational resources are limited.</p>
+        <p class="summary-text">Researchers draw inspiration from squirrel ecology to develop a new AI model that integrates control, memory, and verification. The model, called SC RAT, uses a hierarchical partially observed control approach with latent dynamics and structured episodic memory.</p>
+        <p class="why-text">This research matters because it provides a new perspective on developing agentic AI that can act, remember, and verify under partial observability, which is crucial for building more robust and reliable AI systems.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#reasoning</span><span class="tag">#efficiency</span><span class="tag">#fine-tuning</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2604.02322v1" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#agents</span><span class="tag">#reasoning</span><span class="tag">#safety</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2604.03201v1" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -516,8 +516,8 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Gemma 4 is a new open model from DeepMind, designed for advanced reasoning and agentic workflows. It is considered the most capable open model to date, offering improved performance in a range of tasks.</p>
-        <p class="why-text">Gemma 4's advanced capabilities and open availability will enable developers to build more sophisticated language-based applications and workflows.</p>
+        <p class="summary-text">Gemma 4 is a new open model from DeepMind, designed for advanced reasoning and agentic workflows. It is the most capable open model to date, offering improved performance and intelligence.</p>
+        <p class="why-text">Gemma 4's advanced reasoning capabilities and open availability will enable developers to build more intelligent and autonomous systems at scale.</p>
         <div class="card-footer">
           <div class="tags"><span class="tag">#reasoning</span><span class="tag">#agents</span><span class="tag">#efficiency</span></div>
           <a class="read-link" href="https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/" target="_blank" rel="noopener">Read &rarr;</a>
@@ -542,8 +542,8 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Meta AI introduces Segment Anything Model 3, a computer vision model that can segment objects in images. The model achieves state-of-the-art results on various benchmarks, demonstrating its ability to accurately identify and separate objects from their backgrounds.</p>
-        <p class="why-text">This matters for code and content at scale because it enables more accurate and efficient image processing and analysis in applications such as image editing, robotics, and autonomous vehicles.</p>
+        <p class="summary-text">Meta AI introduces Segment Anything Model 3, a computer vision model that can segment any object in an image. The model achieves state-of-the-art performance on various segmentation benchmarks, demonstrating its ability to accurately identify and isolate objects within images.</p>
+        <p class="why-text">This matters for code and content at scale because it enables more accurate and efficient image processing and analysis in applications such as robotics, autonomous vehicles, and medical imaging.</p>
         <div class="card-footer">
           <div class="tags"><span class="tag">#multimodal</span><span class="tag">#efficiency</span><span class="tag">#safety</span></div>
           <a class="read-link" href="https://ai.meta.com/blog/segment-anything-model-3/" target="_blank" rel="noopener">Read &rarr;</a>
@@ -556,7 +556,7 @@
         <div class="card-summary">
           <span class="index">08</span>
           <div class="card-main">
-            <span class="headline">AI Agents for Banking</span>
+            <span class="headline">AI Agents Automate Banking</span>
             <div class="card-meta">
               <span class="source">openai</span>
               <span class="dot">·</span>
@@ -568,10 +568,10 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Gradient Labs uses OpenAI's GPT models to power AI agents that automate banking support workflows. These agents provide low-latency and high-reliability support to bank customers.</p>
-        <p class="why-text">This matters for code because it demonstrates the potential of AI agents to automate complex workflows and provide reliable support at scale.</p>
+        <p class="summary-text">Gradient Labs uses GPT models to power AI agents that automate banking support workflows. These agents provide low-latency and high-reliability support to bank customers.</p>
+        <p class="why-text">This matters because it demonstrates the potential for AI to improve customer service and efficiency in the banking industry through automated support workflows.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#agents</span><span class="tag">#efficiency</span><span class="tag">#safety</span></div>
+          <div class="tags"><span class="tag">#agents</span><span class="tag">#safety</span><span class="tag">#efficiency</span></div>
           <a class="read-link" href="https://openai.com/index/gradient-labs" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
@@ -594,8 +594,8 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Meta AI introduces Tribe V2, a predictive foundation model that improves upon its predecessor. Tribe V2 demonstrates enhanced performance in various tasks, showcasing its potential for real-world applications.</p>
-        <p class="why-text">Tribe V2's advancements in predictive modeling can lead to more accurate and efficient language understanding and generation in large-scale AI systems.</p>
+        <p class="summary-text">Meta AI introduces Tribe V2, a predictive foundation model that improves upon its predecessor. The model demonstrates enhanced performance in various tasks, showcasing its potential for real-world applications.</p>
+        <p class="why-text">This matters for language models as it enables more accurate predictions and better decision-making capabilities in AI systems.</p>
         <div class="card-footer">
           <div class="tags"><span class="tag">#fine-tuning</span><span class="tag">#language-design</span><span class="tag">#efficiency</span></div>
           <a class="read-link" href="https://ai.meta.com/blog/tribe-v2-brain-predictive-foundation-model/" target="_blank" rel="noopener">Read &rarr;</a>
