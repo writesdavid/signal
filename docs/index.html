@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Signal — April 13, 2026</title>
+  <title>Signal — April 14, 2026</title>
   <meta name="description" content="AI-digested language + LLM research for engineers and practitioners." />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -344,7 +344,7 @@
     <h1>Language + LLM<br>Research</h1>
     <p class="subtitle">AI-digested highlights for engineers and practitioners<br>who care about language.</p>
     <div class="meta-row">
-      <span>April 13, 2026</span>
+      <span>April 14, 2026</span>
       <span class="sep">·</span>
       <span>11 items</span>
       <span class="sep">·</span>
@@ -374,23 +374,23 @@
         <div class="card-summary">
           <span class="index">01</span>
           <div class="card-main">
-            <span class="headline">LLMs Generate Harmful Content</span>
+            <span class="headline">Grounded World Model</span>
             <div class="card-meta">
               <span class="source">arXiv</span>
               <span class="dot">·</span>
-              <span class="impact-dots" style="color:#ff9f0a">●●●●○</span>
-              <span class="impact-label" style="color:#ff9f0a">Major</span>
+              <span class="impact-dots" style="color:#ffd60a">●●●○○</span>
+              <span class="impact-label" style="color:#ffd60a">Significant</span>
             </div>
           </div>
           <span class="chevron">›</span>
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Researchers used weight pruning to study how large language models generate harmful content, finding that it relies on a compact set of general weights. The study reveals that alignment training reshapes harmful representations internally, despite surface-level brittleness.</p>
-        <p class="why-text">This research matters because it helps developers understand how to improve the safety and alignment of language models, which is crucial for deploying them in real-world applications.</p>
+        <p class="summary-text">This research proposes a Grounded World Model that learns a vision-language-aligned latent space for Model Predictive Control. The model scores proposed actions based on their similarity to task instructions, improving semantic generalization.</p>
+        <p class="why-text">This matters for language models because it enables more effective planning and control in complex environments using natural language instructions.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#safety</span><span class="tag">#fine-tuning</span><span class="tag">#language-design</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2604.09544v1" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#reasoning</span><span class="tag">#multimodal</span><span class="tag">#language-design</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2604.11751v1" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -400,7 +400,7 @@
         <div class="card-summary">
           <span class="index">02</span>
           <div class="card-main">
-            <span class="headline">Evidence Verification Framework</span>
+            <span class="headline">Meerkat Finds Safety Violations</span>
             <div class="card-meta">
               <span class="source">arXiv</span>
               <span class="dot">·</span>
@@ -412,11 +412,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">This research introduces a framework for evidence verification, where a model decides if provided evidence supports a claim. The framework includes a supervision construction procedure to generate support and non-support examples without manual annotation.</p>
-        <p class="why-text">This framework improves the ability of language models to make decisions based on evidence, which is crucial for applications that require reliable and trustworthy outputs.</p>
+        <p class="summary-text">Meerkat is a system that detects safety violations in agent traces by combining clustering with agentic search. It can find sparse failures without relying on seed scenarios or exhaustive enumeration, and is effective in various settings such as misuse campaigns and prompt injection.</p>
+        <p class="why-text">Meerkat's ability to detect safety violations across many agent traces matters for ensuring the reliability and security of AI systems, particularly in high-stakes applications where failures can have serious consequences.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#reasoning</span><span class="tag">#evals</span><span class="tag">#safety</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2604.09537v1" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#safety</span><span class="tag">#agents</span><span class="tag">#evals</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2604.11806v1" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -425,84 +425,6 @@
       <summary>
         <div class="card-summary">
           <span class="index">03</span>
-          <div class="card-main">
-            <span class="headline">Calibrating Vision-Language Models</span>
-            <div class="card-meta">
-              <span class="source">arXiv</span>
-              <span class="dot">·</span>
-              <span class="impact-dots" style="color:#ffd60a">●●●○○</span>
-              <span class="impact-label" style="color:#ffd60a">Significant</span>
-            </div>
-          </div>
-          <span class="chevron">›</span>
-        </div>
-      </summary>
-      <div class="card-body">
-        <p class="summary-text">VL-Calibration is a reinforcement learning framework that decouples confidence into visual and reasoning confidence for large vision-language models. It addresses issues with existing confidence calibration methods by providing a more nuanced understanding of model uncertainty.</p>
-        <p class="why-text">This research matters because it helps improve the reliability of vision-language models by providing a more accurate understanding of their confidence and uncertainty, which is crucial for high-stakes applications.</p>
-        <div class="card-footer">
-          <div class="tags"><span class="tag">#reasoning</span><span class="tag">#multimodal</span><span class="tag">#safety</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2604.09529v1" target="_blank" rel="noopener">Read &rarr;</a>
-        </div>
-      </div>
-    </details>
-
-    <details class="card">
-      <summary>
-        <div class="card-summary">
-          <span class="index">04</span>
-          <div class="card-main">
-            <span class="headline">Agents Communicate Differently</span>
-            <div class="card-meta">
-              <span class="source">arXiv</span>
-              <span class="dot">·</span>
-              <span class="impact-dots" style="color:#ffd60a">●●●○○</span>
-              <span class="impact-label" style="color:#ffd60a">Significant</span>
-            </div>
-          </div>
-          <span class="chevron">›</span>
-        </div>
-      </summary>
-      <div class="card-body">
-        <p class="summary-text">Researchers studied how agents with different capacities communicate, finding a sharp structural phase transition in communication below a critical rate. This transition determines the possibility of intent-preserving communication between heterogeneous agents.</p>
-        <p class="why-text">This matters for code because it informs the design of communication protocols between agents with varying computational capacities, impacting their ability to align and achieve common goals.</p>
-        <div class="card-footer">
-          <div class="tags"><span class="tag">#agents</span><span class="tag">#communication</span><span class="tag">#safety</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2604.09521v1" target="_blank" rel="noopener">Read &rarr;</a>
-        </div>
-      </div>
-    </details>
-
-    <details class="card">
-      <summary>
-        <div class="card-summary">
-          <span class="index">05</span>
-          <div class="card-main">
-            <span class="headline">VISOR Improves Visual Retrieval</span>
-            <div class="card-meta">
-              <span class="source">arXiv</span>
-              <span class="dot">·</span>
-              <span class="impact-dots" style="color:#ffd60a">●●●○○</span>
-              <span class="impact-label" style="color:#ffd60a">Significant</span>
-            </div>
-          </div>
-          <span class="chevron">›</span>
-        </div>
-      </summary>
-      <div class="card-body">
-        <p class="summary-text">VISOR is a framework for visual retrieval-augmented generation that tackles complex queries with multi-step reasoning. It addresses visual evidence sparsity and search drift in long horizons through a structured Evidence Space and over-horizon reasoning.</p>
-        <p class="why-text">VISOR's ability to reason over visually rich documents and retrieve relevant information can improve the performance of vision-language models in tasks that require multi-step reasoning.</p>
-        <div class="card-footer">
-          <div class="tags"><span class="tag">#multimodal</span><span class="tag">#reasoning</span><span class="tag">#agents</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2604.09508v1" target="_blank" rel="noopener">Read &rarr;</a>
-        </div>
-      </div>
-    </details>
-
-    <details class="card">
-      <summary>
-        <div class="card-summary">
-          <span class="index">06</span>
           <div class="card-main">
             <span class="headline">AI Agents Learn On Job</span>
             <div class="card-meta">
@@ -516,8 +438,8 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">ALTK-Evolve is a framework that enables AI agents to learn from their interactions with humans and adapt to new situations. The approach allows agents to improve their performance over time through on-the-job learning, making them more effective in real-world applications.</p>
-        <p class="why-text">This matters because it enables AI agents to become more effective and autonomous in real-world applications, such as customer service or language translation, by learning from their interactions with humans.</p>
+        <p class="summary-text">ALTK-Evolve is a framework for on-the-job learning in AI agents, enabling them to adapt and improve over time. The approach allows agents to learn from interactions and update their models in real-world environments.</p>
+        <p class="why-text">This matters for code because it enables AI agents to learn and improve in real-world environments, making them more effective and efficient in tasks such as language understanding and generation.</p>
         <div class="card-footer">
           <div class="tags"><span class="tag">#agents</span><span class="tag">#fine-tuning</span><span class="tag">#reasoning</span></div>
           <a class="read-link" href="https://huggingface.co/blog/ibm-research/altk-evolve" target="_blank" rel="noopener">Read &rarr;</a>
@@ -528,11 +450,11 @@
     <details class="card">
       <summary>
         <div class="card-summary">
-          <span class="index">07</span>
+          <span class="index">04</span>
           <div class="card-main">
-            <span class="headline">Segment Anything Model 3</span>
+            <span class="headline">LLMs Tested on Real Code Vulnerabilities</span>
             <div class="card-meta">
-              <span class="source">meta-ai</span>
+              <span class="source">Hacker News</span>
               <span class="dot">·</span>
               <span class="impact-dots" style="color:#ffd60a">●●●○○</span>
               <span class="impact-label" style="color:#ffd60a">Significant</span>
@@ -542,11 +464,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Meta AI's Segment Anything Model 3 is a computer vision model that can segment any object in an image. The model achieves state-of-the-art results on various benchmarks, demonstrating its ability to accurately identify and separate objects from their backgrounds.</p>
-        <p class="why-text">This model's ability to accurately segment objects in images can improve the performance of downstream tasks such as image editing, object detection, and robotic vision, which is crucial for applications like self-driving cars and medical imaging.</p>
+        <p class="summary-text">N-Day-Bench evaluates LLMs on finding known security vulnerabilities in real GitHub repositories. The benchmark updates monthly to prevent contamination from training data.</p>
+        <p class="why-text">This matters for code security and safety, as it assesses the ability of LLMs to identify real-world vulnerabilities in codebases.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#multimodal</span><span class="tag">#efficiency</span><span class="tag">#safety</span></div>
-          <a class="read-link" href="https://ai.meta.com/blog/segment-anything-model-3/" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#safety</span><span class="tag">#code-gen</span><span class="tag">#evals</span></div>
+          <a class="read-link" href="https://ndaybench.winfunc.com" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -554,7 +476,59 @@
     <details class="card">
       <summary>
         <div class="card-summary">
-          <span class="index">08</span>
+          <span class="index">05</span>
+          <div class="card-main">
+            <span class="headline">Soccer Tactics Forecasting</span>
+            <div class="card-meta">
+              <span class="source">arXiv</span>
+              <span class="dot">·</span>
+              <span class="impact-dots" style="color:#0a84ff">●●○○○</span>
+              <span class="impact-label" style="color:#0a84ff">Noteworthy</span>
+            </div>
+          </div>
+          <span class="chevron">›</span>
+        </div>
+      </summary>
+      <div class="card-body">
+        <p class="summary-text">GenTac is a generative framework that models soccer tactics as a stochastic process, capturing the variance and branching possibilities of real-world match evolution. It learns from historical tracking data to sample diverse, plausible future trajectories, considering contextual conditions like opponent behavior and team playing styles.</p>
+        <p class="why-text">This matters for code because it demonstrates the potential of generative models in complex, multi-agent domains like sports, which can inform the development of more sophisticated AI systems for strategy and decision-making.</p>
+        <div class="card-footer">
+          <div class="tags"><span class="tag">#agents</span><span class="tag">#reasoning</span><span class="tag">#multimodal</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2604.11786v1" target="_blank" rel="noopener">Read &rarr;</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <div class="card-summary">
+          <span class="index">06</span>
+          <div class="card-main">
+            <span class="headline">Saarbrücken Dialect Corpus</span>
+            <div class="card-meta">
+              <span class="source">arXiv</span>
+              <span class="dot">·</span>
+              <span class="impact-dots" style="color:#0a84ff">●●○○○</span>
+              <span class="impact-label" style="color:#0a84ff">Noteworthy</span>
+            </div>
+          </div>
+          <span class="chevron">›</span>
+        </div>
+      </summary>
+      <div class="card-body">
+        <p class="summary-text">Saar-Voice is a six-hour speech corpus for the Saarbrücken dialect of German, created to address the underrepresentation of dialects in linguistic resources. The corpus includes aligned textual and audio representations, and analyses of its characteristics and quality have been conducted.</p>
+        <p class="why-text">This corpus matters because it provides a foundation for improving speech technologies and NLP models for dialects, which are currently underrepresented in linguistic resources.</p>
+        <div class="card-footer">
+          <div class="tags"><span class="tag">#speech</span><span class="tag">#language-design</span><span class="tag">#safety</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2604.11803v1" target="_blank" rel="noopener">Read &rarr;</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <div class="card-summary">
+          <span class="index">07</span>
           <div class="card-main">
             <span class="headline">Multimodal Sentence Transformers</span>
             <div class="card-meta">
@@ -569,10 +543,36 @@
       </summary>
       <div class="card-body">
         <p class="summary-text">This research introduces multimodal embedding and reranker models using sentence transformers, enabling more accurate text and image matching. The models can be fine-tuned for specific tasks, such as image-text retrieval and visual question answering.</p>
-        <p class="why-text">This matters for code because it allows developers to create more accurate and efficient multimodal models for a wide range of applications, including image-text retrieval and visual question answering.</p>
+        <p class="why-text">This matters for code and language models as it improves the ability to align text and images, enhancing multimodal understanding and generation capabilities.</p>
         <div class="card-footer">
           <div class="tags"><span class="tag">#multimodal</span><span class="tag">#sentence-transformers</span><span class="tag">#fine-tuning</span></div>
           <a class="read-link" href="https://huggingface.co/blog/multimodal-sentence-transformers" target="_blank" rel="noopener">Read &rarr;</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <div class="card-summary">
+          <span class="index">08</span>
+          <div class="card-main">
+            <span class="headline">OpenAI Powers Cloudflare Agents</span>
+            <div class="card-meta">
+              <span class="source">openai</span>
+              <span class="dot">·</span>
+              <span class="impact-dots" style="color:#0a84ff">●●○○○</span>
+              <span class="impact-label" style="color:#0a84ff">Noteworthy</span>
+            </div>
+          </div>
+          <span class="chevron">›</span>
+        </div>
+      </summary>
+      <div class="card-body">
+        <p class="summary-text">Cloudflare integrates OpenAI's GPT-5.4 and Codex into Agent Cloud, enabling enterprises to build and deploy AI agents. This integration allows for faster and more secure deployment of AI-powered workflows.</p>
+        <p class="why-text">This integration matters because it enables enterprises to leverage OpenAI's models for building and deploying AI agents at scale, enhancing their workflow automation capabilities.</p>
+        <div class="card-footer">
+          <div class="tags"><span class="tag">#agents</span><span class="tag">#code-gen</span><span class="tag">#efficiency</span></div>
+          <a class="read-link" href="https://openai.com/index/cloudflare-openai-agent-cloud" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -594,8 +594,8 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">OpenAI provides resources for financial institutions to deploy AI securely, including prompt packs and guides. These tools help institutions scale AI while maintaining security and compliance.</p>
-        <p class="why-text">This matters for code because it enables financial institutions to leverage AI for secure and compliant applications, such as risk assessment and portfolio management.</p>
+        <p class="summary-text">OpenAI provides AI resources for financial services, including prompt packs and guides. These tools help institutions deploy and scale AI securely, improving their operations and decision-making.</p>
+        <p class="why-text">This matters for code because it enables secure and scalable AI deployment in finance, a highly regulated industry with strict security requirements.</p>
         <div class="card-footer">
           <div class="tags"><span class="tag">#prompting</span><span class="tag">#safety</span><span class="tag">#efficiency</span></div>
           <a class="read-link" href="https://openai.com/academy/financial-services" target="_blank" rel="noopener">Read &rarr;</a>
@@ -608,9 +608,9 @@
         <div class="card-summary">
           <span class="index">10</span>
           <div class="card-main">
-            <span class="headline">Safe AI Use Guide</span>
+            <span class="headline">Segment Anything Model 3</span>
             <div class="card-meta">
-              <span class="source">openai</span>
+              <span class="source">meta-ai</span>
               <span class="dot">·</span>
               <span class="impact-dots" style="color:#0a84ff">●●○○○</span>
               <span class="impact-label" style="color:#0a84ff">Noteworthy</span>
@@ -620,11 +620,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">OpenAI provides guidelines for responsible AI use, focusing on safety, accuracy, and transparency. The guide offers best practices for working with AI tools like ChatGPT.</p>
-        <p class="why-text">This guide matters because it helps developers and users implement AI safely and effectively, reducing potential risks and improving overall performance.</p>
+        <p class="summary-text">The Segment Anything Model 3 is a new version of Meta's image segmentation model, which can identify and separate objects within images. This updated model has improved performance and can handle a wider range of image types and objects.</p>
+        <p class="why-text">This model's improved image segmentation capabilities can enhance applications such as image editing, object detection, and content moderation at scale.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#safety</span><span class="tag">#efficiency</span><span class="tag">#fine-tuning</span></div>
-          <a class="read-link" href="https://openai.com/academy/responsible-and-safe-use" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#multimodal</span><span class="tag">#efficiency</span><span class="tag">#safety</span></div>
+          <a class="read-link" href="https://ai.meta.com/blog/segment-anything-model-3/" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -646,8 +646,8 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Meta AI introduces Tribe V2, a brain predictive foundation model that improves upon its predecessor. The model demonstrates enhanced performance in various tasks, showcasing its potential for real-world applications.</p>
-        <p class="why-text">This matters for language models as it enables more accurate predictions and improved overall performance, which can be applied to various natural language processing tasks at scale.</p>
+        <p class="summary-text">Meta AI introduces Tribe V2, a predictive foundation model that improves upon its predecessor. The model demonstrates enhanced performance in various tasks, showcasing its potential for real-world applications.</p>
+        <p class="why-text">This matters for language models as it enables more accurate predictions and improved overall performance in a range of tasks, from natural language processing to content generation.</p>
         <div class="card-footer">
           <div class="tags"><span class="tag">#fine-tuning</span><span class="tag">#language-design</span><span class="tag">#efficiency</span></div>
           <a class="read-link" href="https://ai.meta.com/blog/tribe-v2-brain-predictive-foundation-model/" target="_blank" rel="noopener">Read &rarr;</a>
