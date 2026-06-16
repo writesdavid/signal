@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Signal — June 15, 2026</title>
+  <title>Signal — June 16, 2026</title>
   <meta name="description" content="AI-digested language + LLM research for engineers and practitioners." />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -344,9 +344,9 @@
     <h1>Language + LLM<br>Research</h1>
     <p class="subtitle">AI-digested highlights for engineers and practitioners<br>who care about language.</p>
     <div class="meta-row">
-      <span>June 15, 2026</span>
+      <span>June 16, 2026</span>
       <span class="sep">·</span>
-      <span>13 items</span>
+      <span>11 items</span>
       <span class="sep">·</span>
       <span>arXiv · HuggingFace · HN · Reddit</span>
     </div>
@@ -374,7 +374,7 @@
         <div class="card-summary">
           <span class="index">01</span>
           <div class="card-main">
-            <span class="headline">DeepMind's Gemma 4 Model</span>
+            <span class="headline">Gemma 4: Encoder-Free Multimodal</span>
             <div class="card-meta">
               <span class="source">deepmind</span>
               <span class="dot">·</span>
@@ -386,10 +386,10 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Gemma 4 is a unified, encoder-free multimodal model that can process multiple forms of input. It achieves state-of-the-art results in various tasks, demonstrating its potential for multimodal understanding and generation.</p>
-        <p class="why-text">Gemma 4's unified architecture and encoder-free design could simplify the development of multimodal models and improve their performance in real-world applications.</p>
+        <p class="summary-text">DeepMind introduces Gemma 4, a unified multimodal model that eliminates the need for encoders. This 12B model achieves competitive performance across various tasks, simplifying the architecture and reducing computational requirements.</p>
+        <p class="why-text">Gemma 4's encoder-free design has significant implications for efficient multimodal processing and could influence the development of future language models</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#multimodal</span><span class="tag">#efficiency</span><span class="tag">#agents</span></div>
+          <div class="tags"><span class="tag">#multimodal</span><span class="tag">#efficiency</span><span class="tag">#fine-tuning</span></div>
           <a class="read-link" href="https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
@@ -400,7 +400,7 @@
         <div class="card-summary">
           <span class="index">02</span>
           <div class="card-main">
-            <span class="headline">Benchmark for Medical MLLM Hallucinations</span>
+            <span class="headline">LLMs Struggle with Meta-Analysis</span>
             <div class="card-meta">
               <span class="source">arXiv</span>
               <span class="dot">·</span>
@@ -412,11 +412,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">ClinHallu is a benchmark for diagnosing stage-wise hallucinations in medical multimodal large language models. It contains 7,031 instances with structured reasoning traces to identify hallucination sources and measure the impact of corrections on final answers.</p>
-        <p class="why-text">This benchmark matters because it enables the development of more trustworthy medical language models by identifying and addressing specific sources of hallucinations in the reasoning process.</p>
+        <p class="summary-text">Researchers benchmarked LLM agents on meta-analysis articles from Nature Portfolio, revealing a critical screening bottleneck. The benchmark showed that current LLMs fail to reliably separate relevant and irrelevant studies, despite high retrieval recall.</p>
+        <p class="why-text">This matters for code and language models because it highlights the need for improved systematic scientific reasoning capabilities in LLMs, particularly in high-stakes applications like evidence synthesis.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#reasoning</span><span class="tag">#safety</span><span class="tag">#fine-tuning</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2606.14697v1" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#reasoning</span><span class="tag">#evals</span><span class="tag">#agents</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2606.17041v1" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -426,7 +426,7 @@
         <div class="card-summary">
           <span class="index">03</span>
           <div class="card-main">
-            <span class="headline">CORA Aligns Reasoning</span>
+            <span class="headline">Language Models Track Goal Progress</span>
             <div class="card-meta">
               <span class="source">arXiv</span>
               <span class="dot">·</span>
@@ -438,11 +438,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">CORA analyzes and addresses the thinking-answer gap in multimodal RLVR, finding that semantic inconsistency persists during training and inference. CORA introduces a consistency reward model to improve alignment between reasoning and answers.</p>
-        <p class="why-text">CORA's approach to ensuring consistency between reasoning and answers can improve the reliability of large language models in multimodal scenarios.</p>
+        <p class="summary-text">Researchers found that language models internally track the value of their current trajectory, defined as the likelihood of achieving their goals. This 'value axis' can distinguish between high and low confidence, correct and corrupted code, and even influence model behavior through direct preference optimization.</p>
+        <p class="why-text">Understanding how language models track their progress towards goals can help improve their performance, confidence, and ability to generate high-quality code and content.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#reasoning</span><span class="tag">#multimodal</span><span class="tag">#safety</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2606.14691v1" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#reasoning</span><span class="tag">#fine-tuning</span><span class="tag">#safety</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2606.17056v1" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -451,58 +451,6 @@
       <summary>
         <div class="card-summary">
           <span class="index">04</span>
-          <div class="card-main">
-            <span class="headline">VLMs Use Gaze Heads</span>
-            <div class="card-meta">
-              <span class="source">arXiv</span>
-              <span class="dot">·</span>
-              <span class="impact-dots" style="color:#ffd60a">●●●○○</span>
-              <span class="impact-label" style="color:#ffd60a">Significant</span>
-            </div>
-          </div>
-          <span class="chevron">›</span>
-        </div>
-      </summary>
-      <div class="card-body">
-        <p class="summary-text">Researchers found that vision-language models use specific attention heads, called gaze heads, to track image regions being described. These gaze heads can be redirected to change the model's description of an image.</p>
-        <p class="why-text">Understanding how VLMs focus on specific image regions can improve their ability to generate accurate and relevant descriptions of images.</p>
-        <div class="card-footer">
-          <div class="tags"><span class="tag">#multimodal</span><span class="tag">#reasoning</span><span class="tag">#evals</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2606.14703v1" target="_blank" rel="noopener">Read &rarr;</a>
-        </div>
-      </div>
-    </details>
-
-    <details class="card">
-      <summary>
-        <div class="card-summary">
-          <span class="index">05</span>
-          <div class="card-main">
-            <span class="headline">AdaSR Adaptive Reasoning</span>
-            <div class="card-meta">
-              <span class="source">arXiv</span>
-              <span class="dot">·</span>
-              <span class="impact-dots" style="color:#ffd60a">●●●○○</span>
-              <span class="impact-label" style="color:#ffd60a">Significant</span>
-            </div>
-          </div>
-          <span class="chevron">›</span>
-        </div>
-      </summary>
-      <div class="card-body">
-        <p class="summary-text">AdaSR is a framework that enables models to reason during input streaming and perform final deliberation once the stream is complete. It learns when to think and how much computation to allocate across different stages using Hierarchical Relative Policy Optimization.</p>
-        <p class="why-text">This matters for building more efficient and flexible language models that can handle dynamic, real-world scenarios like audio and video streams</p>
-        <div class="card-footer">
-          <div class="tags"><span class="tag">#reasoning</span><span class="tag">#streaming</span><span class="tag">#efficiency</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2606.14694v1" target="_blank" rel="noopener">Read &rarr;</a>
-        </div>
-      </div>
-    </details>
-
-    <details class="card">
-      <summary>
-        <div class="card-summary">
-          <span class="index">06</span>
           <div class="card-main">
             <span class="headline">OpenAI Acquires Ona</span>
             <div class="card-meta">
@@ -516,7 +464,7 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">OpenAI is acquiring Ona to enhance Codex with secure cloud environments. This will enable long-running AI agents across enterprise workflows, expanding Codex's capabilities.</p>
+        <p class="summary-text">OpenAI is acquiring Ona to enhance Codex with secure cloud environments. This will enable long-running AI agents in enterprise workflows, expanding Codex's capabilities.</p>
         <p class="why-text">This acquisition matters because it will allow for more secure and persistent AI deployments in enterprise settings, potentially accelerating the adoption of AI-powered workflows.</p>
         <div class="card-footer">
           <div class="tags"><span class="tag">#agents</span><span class="tag">#code-gen</span><span class="tag">#safety</span></div>
@@ -528,9 +476,9 @@
     <details class="card">
       <summary>
         <div class="card-summary">
-          <span class="index">07</span>
+          <span class="index">05</span>
           <div class="card-main">
-            <span class="headline">Funding Multi-Agent AI Safety</span>
+            <span class="headline">DeepMind Funds AI Safety</span>
             <div class="card-meta">
               <span class="source">deepmind</span>
               <span class="dot">·</span>
@@ -542,10 +490,10 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">DeepMind and partners are investing $10M in multi-agent AI safety research, aiming to improve the safety of AI systems that interact with each other. This funding call will support research projects focused on developing safer multi-agent AI systems.</p>
-        <p class="why-text">This research has the potential to improve the safety and reliability of complex AI systems that interact with each other at scale</p>
+        <p class="summary-text">DeepMind is investing in multi-agent AI safety research with a $10M funding call. This initiative aims to support research in safety protocols for AI systems that interact with each other and their environment.</p>
+        <p class="why-text">This research matters because it can help develop more robust and reliable AI systems that can safely interact with humans and other agents at scale.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#safety</span><span class="tag">#agents</span><span class="tag">#multi-modal</span></div>
+          <div class="tags"><span class="tag">#safety</span><span class="tag">#agents</span></div>
           <a class="read-link" href="https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
@@ -554,9 +502,9 @@
     <details class="card">
       <summary>
         <div class="card-summary">
-          <span class="index">08</span>
+          <span class="index">06</span>
           <div class="card-main">
-            <span class="headline">Pruning Models For Roleplay</span>
+            <span class="headline">RL Boosts Context Awareness</span>
             <div class="card-meta">
               <span class="source">arXiv</span>
               <span class="dot">·</span>
@@ -568,11 +516,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Researchers propose Persona-Pruner, a framework for creating lightweight role-playing models by isolating persona-specific sub-networks. The framework aims to reduce computational costs while preserving role-playing performance for specific personas.</p>
-        <p class="why-text">This matters for code because it enables more efficient deployment of role-playing chatbots in real-world applications with numerous interacting personas.</p>
+        <p class="summary-text">ContextRL is a reinforcement learning method that improves long-horizon reasoning and multimodal performance in large language models. It achieves average gains of +2.2% over standard GRPO by encouraging fine-grained grounding through indirect auxiliary objectives.</p>
+        <p class="why-text">This matters for code and language models as it enhances their ability to identify decisive evidence within complex contexts, leading to more accurate and informed responses.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#fine-tuning</span><span class="tag">#efficiency</span><span class="tag">#agents</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2606.14695v1" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#reasoning</span><span class="tag">#multimodal</span><span class="tag">#agents</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2606.17053v1" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -580,7 +528,33 @@
     <details class="card">
       <summary>
         <div class="card-summary">
-          <span class="index">09</span>
+          <span class="index">07</span>
+          <div class="card-main">
+            <span class="headline">Efficient Context Erasing</span>
+            <div class="card-meta">
+              <span class="source">arXiv</span>
+              <span class="dot">·</span>
+              <span class="impact-dots" style="color:#0a84ff">●●○○○</span>
+              <span class="impact-label" style="color:#0a84ff">Noteworthy</span>
+            </div>
+          </div>
+          <span class="chevron">›</span>
+        </div>
+      </summary>
+      <div class="card-body">
+        <p class="summary-text">KVEraser is a learned method for efficient localized context erasing in long-context LLM applications. It replaces only the KV states of the erased interval with learned steering states, reusing the remaining cache unchanged, to reduce computational cost.</p>
+        <p class="why-text">This matters for code because it enables more efficient handling of context erasing in large language models, reducing computational costs and improving overall performance.</p>
+        <div class="card-footer">
+          <div class="tags"><span class="tag">#efficiency</span><span class="tag">#fine-tuning</span><span class="tag">#language-design</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2606.17034v1" target="_blank" rel="noopener">Read &rarr;</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <div class="card-summary">
+          <span class="index">08</span>
           <div class="card-main">
             <span class="headline">Olmo Eval Released</span>
             <div class="card-meta">
@@ -594,8 +568,8 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Olmo-eval is an evaluation workbench for the model development loop, providing a framework for testing and comparing AI models. It aims to streamline the evaluation process, making it easier to identify and address model weaknesses.</p>
-        <p class="why-text">Olmo-eval matters because it helps practitioners efficiently evaluate and improve their language models, leading to better performance and more reliable results.</p>
+        <p class="summary-text">Olmo Eval is an evaluation workbench for the model development loop, providing a comprehensive framework for assessing model performance. It streamlines the evaluation process, enabling developers to identify areas for improvement and optimize their models more efficiently.</p>
+        <p class="why-text">Olmo Eval matters because it simplifies the model evaluation process, allowing developers to focus on fine-tuning and improving their language models more effectively.</p>
         <div class="card-footer">
           <div class="tags"><span class="tag">#evals</span><span class="tag">#fine-tuning</span><span class="tag">#efficiency</span></div>
           <a class="read-link" href="https://huggingface.co/blog/allenai/olmo-eval" target="_blank" rel="noopener">Read &rarr;</a>
@@ -606,35 +580,9 @@
     <details class="card">
       <summary>
         <div class="card-summary">
-          <span class="index">10</span>
+          <span class="index">09</span>
           <div class="card-main">
-            <span class="headline">Agent Builds 3D Paris Gallery</span>
-            <div class="card-meta">
-              <span class="source">HuggingFace</span>
-              <span class="dot">·</span>
-              <span class="impact-dots" style="color:#0a84ff">●●○○○</span>
-              <span class="impact-label" style="color:#0a84ff">Noteworthy</span>
-            </div>
-          </div>
-          <span class="chevron">›</span>
-        </div>
-      </summary>
-      <div class="card-body">
-        <p class="summary-text">Researchers used two Hugging Face Spaces to create an agent that builds a 3D Paris gallery. The agent chained the two spaces to generate the 3D environment.</p>
-        <p class="why-text">This matters for code because it demonstrates the potential of combining AI models to generate complex, interactive environments.</p>
-        <div class="card-footer">
-          <div class="tags"><span class="tag">#agents</span><span class="tag">#multimodal</span><span class="tag">#generation</span></div>
-          <a class="read-link" href="https://huggingface.co/blog/mishig/spaces-agents-md" target="_blank" rel="noopener">Read &rarr;</a>
-        </div>
-      </div>
-    </details>
-
-    <details class="card">
-      <summary>
-        <div class="card-summary">
-          <span class="index">11</span>
-          <div class="card-main">
-            <span class="headline">OpenAI Launches AI Courses</span>
+            <span class="headline">OpenAI Launches AI Skills Courses</span>
             <div class="card-meta">
               <span class="source">openai</span>
               <span class="dot">·</span>
@@ -646,8 +594,8 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">OpenAI has introduced three new Academy courses to help people develop practical AI skills. These courses focus on building repeatable workflows and applying AI agents in everyday work.</p>
-        <p class="why-text">These courses matter because they enable developers and practitioners to effectively integrate AI into their workflows and applications.</p>
+        <p class="summary-text">OpenAI has introduced three new Academy courses to help people build practical AI skills and create repeatable workflows. These courses focus on applying AI and agents in everyday work, enabling users to develop valuable skills for the next era of work.</p>
+        <p class="why-text">These courses matter because they provide practitioners with the skills needed to effectively apply AI and agents in real-world work scenarios, enhancing productivity and efficiency.</p>
         <div class="card-footer">
           <div class="tags"><span class="tag">#agents</span><span class="tag">#efficiency</span><span class="tag">#fine-tuning</span></div>
           <a class="read-link" href="https://openai.com/index/academy-courses-applying-ai-at-work" target="_blank" rel="noopener">Read &rarr;</a>
@@ -658,7 +606,7 @@
     <details class="card">
       <summary>
         <div class="card-summary">
-          <span class="index">12</span>
+          <span class="index">10</span>
           <div class="card-main">
             <span class="headline">Segment Anything Model 3</span>
             <div class="card-meta">
@@ -672,8 +620,8 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Meta AI introduces Segment Anything Model 3, a new version of its image segmentation model. This model improves upon its predecessors with enhanced accuracy and flexibility in segmenting objects within images.</p>
-        <p class="why-text">This matters for code and content at scale because it enables more accurate and efficient image processing and analysis in various applications.</p>
+        <p class="summary-text">The Segment Anything Model 3 is a new version of Meta's image segmentation model, which can identify and isolate specific objects within images. This updated model improves upon its predecessors with enhanced accuracy and efficiency, allowing for more precise image editing and analysis.</p>
+        <p class="why-text">This model's advancements in image segmentation have significant implications for applications such as image editing, object detection, and content generation at scale.</p>
         <div class="card-footer">
           <div class="tags"><span class="tag">#multimodal</span><span class="tag">#efficiency</span><span class="tag">#safety</span></div>
           <a class="read-link" href="https://ai.meta.com/blog/segment-anything-model-3/" target="_blank" rel="noopener">Read &rarr;</a>
@@ -684,7 +632,7 @@
     <details class="card">
       <summary>
         <div class="card-summary">
-          <span class="index">13</span>
+          <span class="index">11</span>
           <div class="card-main">
             <span class="headline">Tribe V2 Model Released</span>
             <div class="card-meta">
@@ -698,8 +646,8 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Meta AI introduces Tribe V2, a predictive foundation model that improves upon its predecessor. The model demonstrates enhanced performance in various tasks, showcasing its potential for real-world applications.</p>
-        <p class="why-text">Tribe V2's advancements in predictive capabilities can enhance the development of more accurate and efficient language models for content generation and other tasks at scale.</p>
+        <p class="summary-text">Meta AI introduces Tribe V2, a brain predictive foundation model that enhances performance on various tasks. The model demonstrates improved capabilities in understanding and generating human-like language.</p>
+        <p class="why-text">This matters for language models as it showcases advancements in foundation models that can be fine-tuned for specific tasks, leading to more efficient and effective language understanding and generation.</p>
         <div class="card-footer">
           <div class="tags"><span class="tag">#fine-tuning</span><span class="tag">#language-design</span><span class="tag">#efficiency</span></div>
           <a class="read-link" href="https://ai.meta.com/blog/tribe-v2-brain-predictive-foundation-model/" target="_blank" rel="noopener">Read &rarr;</a>
