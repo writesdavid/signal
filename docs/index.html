@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Signal — July 16, 2026</title>
+  <title>Signal — July 17, 2026</title>
   <meta name="description" content="AI-digested language + LLM research for engineers and practitioners." />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -344,7 +344,7 @@
     <h1>Language + LLM<br>Research</h1>
     <p class="subtitle">AI-digested highlights for engineers and practitioners<br>who care about language.</p>
     <div class="meta-row">
-      <span>July 16, 2026</span>
+      <span>July 17, 2026</span>
       <span class="sep">·</span>
       <span>11 items</span>
       <span class="sep">·</span>
@@ -374,7 +374,7 @@
         <div class="card-summary">
           <span class="index">01</span>
           <div class="card-main">
-            <span class="headline">Hindcast Evaluates LLM Forecasters</span>
+            <span class="headline">AI Edits Scientific Diagrams</span>
             <div class="card-meta">
               <span class="source">arXiv</span>
               <span class="dot">·</span>
@@ -386,11 +386,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Hindcast is a method for evaluating LLM forecasters by replaying prediction markets at a chosen past date. It grades a model's foresight by limiting its access to information from before the outcome existed, and scoring its forecasts against actual outcomes and market prices.</p>
-        <p class="why-text">Hindcast provides a more accurate evaluation of LLM forecasters, helping to identify models that can truly predict future events rather than simply recalling existing information.</p>
+        <p class="summary-text">SciDiagramEdit is a framework that learns to edit scientific diagrams from paper revisions, automating a routine and time-consuming part of research practice. It operates on editable vector sources, allowing users to inspect and co-edit individual primitives alongside the agent.</p>
+        <p class="why-text">This matters for code and content at scale because it can automate the editing of scientific diagrams, saving researchers time and improving the efficiency of the research process.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#evals</span><span class="tag">#reasoning</span><span class="tag">#safety</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2607.14051v1" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#efficiency</span><span class="tag">#safety</span><span class="tag">#fine-tuning</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2607.15272v1" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -400,7 +400,7 @@
         <div class="card-summary">
           <span class="index">02</span>
           <div class="card-main">
-            <span class="headline">Efficient Human-AI Error Correction</span>
+            <span class="headline">SceneBind Binds Vision</span>
             <div class="card-meta">
               <span class="source">arXiv</span>
               <span class="dot">·</span>
@@ -412,11 +412,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Deep Interaction is a method for correcting errors in large language models by allowing users to directly edit the original response. This approach enables precise correction of reasoning errors while preserving accurate steps, and then refines the edited response into a distilled prompt to steer the model along the corrected path.</p>
-        <p class="why-text">This method matters because it enables more efficient and effective human-AI collaboration, reducing the time and tokens required to correct errors in complex reasoning tasks.</p>
+        <p class="summary-text">SceneBind is an omni-modal representation that combines semantic and 3D spatial understanding across vision, audio, and language. It captures object-level semantics, spatial attributes, and uncertainty, and supports cross-modal scene retrieval and object grounding.</p>
+        <p class="why-text">SceneBind's ability to bind what and where across modalities can improve multimodal models' understanding of complex scenes and events.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#reasoning</span><span class="tag">#efficiency</span><span class="tag">#safety</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2607.14049v1" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#multimodal</span><span class="tag">#reasoning</span><span class="tag">#safety</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2607.15265v1" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -425,6 +425,58 @@
       <summary>
         <div class="card-summary">
           <span class="index">03</span>
+          <div class="card-main">
+            <span class="headline">RoboTTT Scales Robot Context</span>
+            <div class="card-meta">
+              <span class="source">arXiv</span>
+              <span class="dot">·</span>
+              <span class="impact-dots" style="color:#ffd60a">●●●○○</span>
+              <span class="impact-label" style="color:#ffd60a">Significant</span>
+            </div>
+          </div>
+          <span class="chevron">›</span>
+        </div>
+      </summary>
+      <div class="card-body">
+        <p class="summary-text">RoboTTT is a robot model that scales visuomotor context to 8K timesteps, enabling new capabilities like one-shot imitation and robustness to perturbations. The model achieves steady gains in closed-loop performance as pretraining context length scales.</p>
+        <p class="why-text">This matters for code because it enables more advanced robot policies that can learn from human demonstrations and improve over time, with potential applications in areas like robotics and autonomous systems.</p>
+        <div class="card-footer">
+          <div class="tags"><span class="tag">#agents</span><span class="tag">#reasoning</span><span class="tag">#efficiency</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2607.15275v1" target="_blank" rel="noopener">Read &rarr;</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <div class="card-summary">
+          <span class="index">04</span>
+          <div class="card-main">
+            <span class="headline">Nemotron 3 Embed Tops RTEB</span>
+            <div class="card-meta">
+              <span class="source">HuggingFace</span>
+              <span class="dot">·</span>
+              <span class="impact-dots" style="color:#ffd60a">●●●○○</span>
+              <span class="impact-label" style="color:#ffd60a">Significant</span>
+            </div>
+          </div>
+          <span class="chevron">›</span>
+        </div>
+      </summary>
+      <div class="card-body">
+        <p class="summary-text">NVIDIA's Nemotron 3 Embed has achieved the top ranking on the RTEB leaderboard, demonstrating its effectiveness in agentic retrieval tasks. This advancement has significant implications for improving the performance of language models in information retrieval and question-answering applications.</p>
+        <p class="why-text">This matters because it shows the potential for improved retrieval capabilities in large language models, enabling more accurate and efficient question-answering and information retrieval at scale.</p>
+        <div class="card-footer">
+          <div class="tags"><span class="tag">#evals</span><span class="tag">#reasoning</span><span class="tag">#agents</span></div>
+          <a class="read-link" href="https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb" target="_blank" rel="noopener">Read &rarr;</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <div class="card-summary">
+          <span class="index">05</span>
           <div class="card-main">
             <span class="headline">US Advances AI Safety</span>
             <div class="card-meta">
@@ -439,62 +491,10 @@
       </summary>
       <div class="card-body">
         <p class="summary-text">OpenAI proposes a 'reverse federalism' approach to AI governance, where state laws inform national frameworks. This approach aims to create a safe and democratic AI ecosystem.</p>
-        <p class="why-text">This approach matters because it could shape the development of AI regulations and guidelines that impact the development and deployment of language models at scale.</p>
+        <p class="why-text">This approach matters because it could establish a precedent for collaborative governance of AI development and deployment at scale.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#safety</span><span class="tag">#fine-tuning</span><span class="tag">#agents</span></div>
+          <div class="tags"><span class="tag">#safety</span><span class="tag">#agents</span></div>
           <a class="read-link" href="https://openai.com/index/advancing-ai-safety-through-state-and-federal-action" target="_blank" rel="noopener">Read &rarr;</a>
-        </div>
-      </div>
-    </details>
-
-    <details class="card">
-      <summary>
-        <div class="card-summary">
-          <span class="index">04</span>
-          <div class="card-main">
-            <span class="headline">GPT-Red Improves AI Safety</span>
-            <div class="card-meta">
-              <span class="source">openai</span>
-              <span class="dot">·</span>
-              <span class="impact-dots" style="color:#ffd60a">●●●○○</span>
-              <span class="impact-label" style="color:#ffd60a">Significant</span>
-            </div>
-          </div>
-          <span class="chevron">›</span>
-        </div>
-      </summary>
-      <div class="card-body">
-        <p class="summary-text">GPT-Red is an automated red teaming system that uses self-play to improve AI safety and alignment. It enhances robustness against prompt injection attacks through self-improvement mechanisms.</p>
-        <p class="why-text">This matters because it enables more robust language models that can better withstand adversarial attacks and improve overall safety in AI applications.</p>
-        <div class="card-footer">
-          <div class="tags"><span class="tag">#safety</span><span class="tag">#fine-tuning</span><span class="tag">#prompting</span></div>
-          <a class="read-link" href="https://openai.com/index/unlocking-self-improvement-gpt-red" target="_blank" rel="noopener">Read &rarr;</a>
-        </div>
-      </div>
-    </details>
-
-    <details class="card">
-      <summary>
-        <div class="card-summary">
-          <span class="index">05</span>
-          <div class="card-main">
-            <span class="headline">AI Earthquake Education</span>
-            <div class="card-meta">
-              <span class="source">arXiv</span>
-              <span class="dot">·</span>
-              <span class="impact-dots" style="color:#0a84ff">●●○○○</span>
-              <span class="impact-label" style="color:#0a84ff">Noteworthy</span>
-            </div>
-          </div>
-          <span class="chevron">›</span>
-        </div>
-      </summary>
-      <div class="card-body">
-        <p class="summary-text">Earthquaker-AI is a hybrid educational framework that integrates conversational AI with robotics to teach primary school students about earthquake preparedness. The system provides guided learning and feedback to support self-regulated learning and calmness under emergency conditions.</p>
-        <p class="why-text">This matters for education at scale because it demonstrates how AI can be used to create interactive and effective learning experiences for critical topics like disaster preparedness.</p>
-        <div class="card-footer">
-          <div class="tags"><span class="tag">#agents</span><span class="tag">#education</span><span class="tag">#safety</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2607.14046v1" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -504,7 +504,7 @@
         <div class="card-summary">
           <span class="index">06</span>
           <div class="card-main">
-            <span class="headline">Smarter Counterfactuals</span>
+            <span class="headline">LLMs Tested For Self-Consistency</span>
             <div class="card-meta">
               <span class="source">arXiv</span>
               <span class="dot">·</span>
@@ -516,11 +516,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">CAVE-ABSA is a framework for generating and validating aspect-level counterfactuals in sentiment analysis. It localizes opinion spans, performs controlled rewriting, and filters candidates to ensure aspect validity and semantic consistency.</p>
-        <p class="why-text">This research improves the evaluation of aspect-based sentiment analysis models by generating more realistic and valid counterfactuals.</p>
+        <p class="summary-text">Researchers investigate if large language models adhere to probabilistic identities by partitioning populations and comparing estimates. The study finds that LLM estimates often deviate from expected self-consistency principles.</p>
+        <p class="why-text">This research matters because it sheds light on the limitations of large language models in maintaining statistical self-consistency, which is crucial for reliable in-context learning and conditional inference.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#evals</span><span class="tag">#reasoning</span><span class="tag">#safety</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2607.13977v1" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#evals</span><span class="tag">#reasoning</span><span class="tag">#fine-tuning</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2607.15277v1" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -529,32 +529,6 @@
       <summary>
         <div class="card-summary">
           <span class="index">07</span>
-          <div class="card-main">
-            <span class="headline">Multi-Expert OCR Routing</span>
-            <div class="card-meta">
-              <span class="source">arXiv</span>
-              <span class="dot">·</span>
-              <span class="impact-dots" style="color:#0a84ff">●●○○○</span>
-              <span class="impact-label" style="color:#0a84ff">Noteworthy</span>
-            </div>
-          </div>
-          <span class="chevron">›</span>
-        </div>
-      </summary>
-      <div class="card-body">
-        <p class="summary-text">Researchers developed a multi-expert system for historical Manchu OCR, accommodating various writing styles with limited labeled data. The system uses a lightweight page-level image classifier to dispatch pages by visual style, achieving high accuracy across different styles.</p>
-        <p class="why-text">This approach enables more accurate OCR for low-resource languages and historical documents, which is crucial for preserving cultural heritage and making historical texts accessible.</p>
-        <div class="card-footer">
-          <div class="tags"><span class="tag">#evals</span><span class="tag">#fine-tuning</span><span class="tag">#efficiency</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2607.14041v1" target="_blank" rel="noopener">Read &rarr;</a>
-        </div>
-      </div>
-    </details>
-
-    <details class="card">
-      <summary>
-        <div class="card-summary">
-          <span class="index">08</span>
           <div class="card-main">
             <span class="headline">Shippy Agent Insights</span>
             <div class="card-meta">
@@ -568,11 +542,37 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Researchers built Shippy, a platform for training agents, and shared their findings. The project revealed key challenges and opportunities in building agents that can learn and interact with their environment.</p>
-        <p class="why-text">This research matters because it informs the development of more effective and efficient agents that can be used in a variety of applications, from language models to content generation.</p>
+        <p class="summary-text">Researchers built Shippy, an AI agent, to study agent development. The project revealed key insights into building effective agents, including the importance of careful design and testing.</p>
+        <p class="why-text">This research matters because it informs the development of more capable and reliable AI agents that can interact with humans and environments in a meaningful way.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#agents</span><span class="tag">#efficiency</span><span class="tag">#language-design</span></div>
+          <div class="tags"><span class="tag">#agents</span><span class="tag">#reasoning</span><span class="tag">#safety</span></div>
           <a class="read-link" href="https://huggingface.co/blog/allenai/shippy-tech-blog" target="_blank" rel="noopener">Read &rarr;</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <div class="card-summary">
+          <span class="index">08</span>
+          <div class="card-main">
+            <span class="headline">Cars24 Scales Conversations</span>
+            <div class="card-meta">
+              <span class="source">openai</span>
+              <span class="dot">·</span>
+              <span class="impact-dots" style="color:#0a84ff">●●○○○</span>
+              <span class="impact-label" style="color:#0a84ff">Noteworthy</span>
+            </div>
+          </div>
+          <span class="chevron">›</span>
+        </div>
+      </summary>
+      <div class="card-body">
+        <p class="summary-text">Cars24 uses OpenAI-powered voice and chat agents to handle over 1 million monthly conversation minutes. This implementation has helped recover 12% of lost leads and improved workflows across the company.</p>
+        <p class="why-text">This matters because it demonstrates the potential of AI-powered conversational agents to improve customer engagement and workflow efficiency at scale.</p>
+        <div class="card-footer">
+          <div class="tags"><span class="tag">#agents</span><span class="tag">#fine-tuning</span><span class="tag">#efficiency</span></div>
+          <a class="read-link" href="https://openai.com/index/cars24" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -595,7 +595,7 @@
       </summary>
       <div class="card-body">
         <p class="summary-text">DeepMind and Isomorphic Labs are sharing their joint approach to bioresilience, focusing on the intersection of biology and AI models. This approach aims to enhance the resilience of biological systems using AI technologies.</p>
-        <p class="why-text">This matters for code and language models as it explores the potential applications of AI in biological systems, which could lead to breakthroughs in fields like healthcare and biotechnology.</p>
+        <p class="why-text">This matters for code and language models as it explores the potential applications of AI in biological systems, which could lead to innovative solutions in fields like healthcare and biotechnology.</p>
         <div class="card-footer">
           <div class="tags"><span class="tag">#safety</span><span class="tag">#efficiency</span><span class="tag">#agents</span></div>
           <a class="read-link" href="https://deepmind.google/blog/our-approach-to-bioresilience/" target="_blank" rel="noopener">Read &rarr;</a>
@@ -620,10 +620,10 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Meta introduces the Muse Spark Meta Model API, a new interface for accessing AI models. The API provides developers with a simple way to integrate Meta's language models into their applications.</p>
-        <p class="why-text">This API matters because it allows developers to easily integrate Meta's language models into their applications, enabling more efficient and scalable content generation and processing at scale.</p>
+        <p class="summary-text">Meta AI introduces the Muse Spark Meta Model API, a new interface for accessing AI models. The API provides developers with a simple way to integrate Meta's models into their applications.</p>
+        <p class="why-text">This API matters because it allows developers to easily integrate Meta's AI models into their code, enabling more efficient and scalable language model deployment.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#language-design</span><span class="tag">#efficiency</span><span class="tag">#code-gen</span></div>
+          <div class="tags"><span class="tag">#fine-tuning</span><span class="tag">#efficiency</span><span class="tag">#language-design</span></div>
           <a class="read-link" href="https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
@@ -646,10 +646,10 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Meta AI introduces Tribe V2, a predictive foundation model that improves upon its predecessor. The model demonstrates enhanced performance in various tasks, showcasing its potential for real-world applications.</p>
-        <p class="why-text">This matters for code and language models as it enables more accurate predictions and improved overall performance in a range of tasks.</p>
+        <p class="summary-text">Meta AI introduces Tribe V2, a brain predictive foundation model that enhances language understanding and generation capabilities. The model demonstrates improved performance on various natural language processing tasks, showcasing its potential for real-world applications.</p>
+        <p class="why-text">This matters for language models as it enables more accurate and informative responses, potentially leading to improved user experiences in conversational AI systems.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#fine-tuning</span><span class="tag">#language-design</span><span class="tag">#efficiency</span></div>
+          <div class="tags"><span class="tag">#language-design</span><span class="tag">#fine-tuning</span><span class="tag">#reasoning</span></div>
           <a class="read-link" href="https://ai.meta.com/blog/tribe-v2-brain-predictive-foundation-model/" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
