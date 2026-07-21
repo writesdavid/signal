@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Signal — July 20, 2026</title>
+  <title>Signal — July 21, 2026</title>
   <meta name="description" content="AI-digested language + LLM research for engineers and practitioners." />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -344,9 +344,9 @@
     <h1>Language + LLM<br>Research</h1>
     <p class="subtitle">AI-digested highlights for engineers and practitioners<br>who care about language.</p>
     <div class="meta-row">
-      <span>July 20, 2026</span>
+      <span>July 21, 2026</span>
       <span class="sep">·</span>
-      <span>12 items</span>
+      <span>11 items</span>
       <span class="sep">·</span>
       <span>arXiv · HuggingFace · HN · Reddit</span>
     </div>
@@ -374,7 +374,7 @@
         <div class="card-summary">
           <span class="index">01</span>
           <div class="card-main">
-            <span class="headline">Multimodal Claim Verification Tool</span>
+            <span class="headline">No Best Discovery Harness</span>
             <div class="card-meta">
               <span class="source">arXiv</span>
               <span class="dot">·</span>
@@ -386,11 +386,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">ToolSciVer is a framework for verifying scientific claims using visual evidence from papers. It uses visual tools to convert dense scientific visuals into explicit evidence and trains a policy with a composite reward function.</p>
-        <p class="why-text">This matters for code because it enables more accurate verification of scientific claims using multimodal evidence, which can improve the reliability of language models in scientific domains.</p>
+        <p class="summary-text">Researchers evaluated 30 discovery harnesses across 12 model-problem pairs, finding no single superior harness. The results show that harnesses have a generalization problem, with variants of OpenEvolve underperforming simpler alternatives.</p>
+        <p class="why-text">This matters for code and language models because it highlights the need for more flexible and adaptive discovery systems that can generalize across different problems and models.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#multimodal</span><span class="tag">#reasoning</span><span class="tag">#safety</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2607.16131v1" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#efficiency</span><span class="tag">#evals</span><span class="tag">#reasoning</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2607.18235v1" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -400,7 +400,7 @@
         <div class="card-summary">
           <span class="index">02</span>
           <div class="card-main">
-            <span class="headline">Diagnosing LLM Weaknesses</span>
+            <span class="headline">Adaptive Safety Margins</span>
             <div class="card-meta">
               <span class="source">arXiv</span>
               <span class="dot">·</span>
@@ -412,11 +412,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">CRAFT is a method that diagnoses weak capabilities in large language models by clustering rubrics and generating targeted fine-tuning data. It identifies underlying capability failures and provides a way to generate data to address these weaknesses.</p>
-        <p class="why-text">This matters because it enables more effective fine-tuning of language models by identifying and addressing specific weaknesses</p>
+        <p class="summary-text">This research proposes a context-conditioned safety critic for visual navigation, which learns to rank trajectory candidates based on adaptive clearance preferences. The approach combines safety, efficiency, and distance-constraint terms to prevent collisions and detours in cluttered spaces.</p>
+        <p class="why-text">This matters for code because it enables more efficient and safe navigation in complex environments, which is crucial for robotics and autonomous systems applications.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#evals</span><span class="tag">#fine-tuning</span><span class="tag">#safety</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2607.16122v1" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#safety</span><span class="tag">#efficiency</span><span class="tag">#multimodal</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2607.18200v1" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -426,7 +426,33 @@
         <div class="card-summary">
           <span class="index">03</span>
           <div class="card-main">
-            <span class="headline">US Advances AI Safety</span>
+            <span class="headline">Logical Judgments Under Pressure</span>
+            <div class="card-meta">
+              <span class="source">arXiv</span>
+              <span class="dot">·</span>
+              <span class="impact-dots" style="color:#ffd60a">●●●○○</span>
+              <span class="impact-label" style="color:#ffd60a">Significant</span>
+            </div>
+          </div>
+          <span class="chevron">›</span>
+        </div>
+      </summary>
+      <div class="card-body">
+        <p class="summary-text">This study tests how logical judgments respond to learned context by prepending soft prefixes to a syllogistic reasoning benchmark. The results show that learned prefixes can override correct judgments and expose limits in a model's logical stability across various models and tests.</p>
+        <p class="why-text">This research matters because it highlights the vulnerability of language models to contextual pressure, which can compromise their logical reasoning capabilities and have implications for their reliability in real-world applications.</p>
+        <div class="card-footer">
+          <div class="tags"><span class="tag">#reasoning</span><span class="tag">#safety</span><span class="tag">#evals</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2607.18228v1" target="_blank" rel="noopener">Read &rarr;</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <div class="card-summary">
+          <span class="index">04</span>
+          <div class="card-main">
+            <span class="headline">Long-horizon models pose safety risks</span>
             <div class="card-meta">
               <span class="source">openai</span>
               <span class="dot">·</span>
@@ -438,37 +464,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">OpenAI proposes a 'reverse federalism' approach to AI governance, where state laws inform national frameworks. This approach aims to create a safe and democratic AI ecosystem.</p>
-        <p class="why-text">This approach matters because it could establish a precedent for AI governance and regulation at scale, influencing the development of language models and AI systems.</p>
+        <p class="summary-text">OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks and observed failures. The company has developed improved safeguards through iterative deployment and testing.</p>
+        <p class="why-text">This research matters because it identifies and addresses critical safety risks associated with long-horizon models, which is crucial for developing reliable and trustworthy AI systems.</p>
         <div class="card-footer">
           <div class="tags"><span class="tag">#safety</span><span class="tag">#efficiency</span><span class="tag">#agents</span></div>
-          <a class="read-link" href="https://openai.com/index/advancing-ai-safety-through-state-and-federal-action" target="_blank" rel="noopener">Read &rarr;</a>
-        </div>
-      </div>
-    </details>
-
-    <details class="card">
-      <summary>
-        <div class="card-summary">
-          <span class="index">04</span>
-          <div class="card-main">
-            <span class="headline">OCT Segmentation Improved</span>
-            <div class="card-meta">
-              <span class="source">arXiv</span>
-              <span class="dot">·</span>
-              <span class="impact-dots" style="color:#0a84ff">●●○○○</span>
-              <span class="impact-label" style="color:#0a84ff">Noteworthy</span>
-            </div>
-          </div>
-          <span class="chevron">›</span>
-        </div>
-      </summary>
-      <div class="card-body">
-        <p class="summary-text">This research investigates spatial normalization for retinal layer segmentation in Optical Coherence Tomography. It introduces a fovea-centered normalization framework to improve segmentation consistency across different datasets.</p>
-        <p class="why-text">This matters for improving the accuracy and robustness of medical imaging analysis, particularly in the context of neurodegenerative diseases.</p>
-        <div class="card-footer">
-          <div class="tags"><span class="tag">#safety</span><span class="tag">#efficiency</span><span class="tag">#evals</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2607.16065v1" target="_blank" rel="noopener">Read &rarr;</a>
+          <a class="read-link" href="https://openai.com/index/safety-alignment-long-horizon-models" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -478,7 +478,7 @@
         <div class="card-summary">
           <span class="index">05</span>
           <div class="card-main">
-            <span class="headline">LLMs Generate Threat Info</span>
+            <span class="headline">LLMs Respond Differently</span>
             <div class="card-meta">
               <span class="source">arXiv</span>
               <span class="dot">·</span>
@@ -490,11 +490,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Researchers evaluated open-weight LLMs for generating structured threat information for autonomous vehicle vulnerabilities. The models were used to create a dataset mapping vulnerability descriptions to standardized threat formats.</p>
-        <p class="why-text">This matters for code because it enables more effective vulnerability management and risk mitigation in autonomous vehicles through structured threat information generation</p>
+        <p class="summary-text">Researchers evaluated how large language models respond to expressions of belief, finding that linguistic diversity affects model responses. The study introduced a typology to systematically assess how different expressions of belief impact model behavior.</p>
+        <p class="why-text">This matters for language models because understanding how they respond to expressions of belief can inform more effective prompting and interaction strategies.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#evals</span><span class="tag">#language-design</span><span class="tag">#safety</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2607.16175v1" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#evals</span><span class="tag">#prompting</span><span class="tag">#language-design</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2607.18232v1" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -504,7 +504,7 @@
         <div class="card-summary">
           <span class="index">06</span>
           <div class="card-main">
-            <span class="headline">Muon Boosts RL Performance</span>
+            <span class="headline">LLM Benchmark For Energy Harvesters</span>
             <div class="card-meta">
               <span class="source">arXiv</span>
               <span class="dot">·</span>
@@ -516,11 +516,11 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Researchers studied Muon in sparse-reward agentic reinforcement learning, comparing it to AdamW in large-scale pre-training. Muon improved final-window validation success by 88% in certain scenarios, depending on the advantage estimator and learning rate.</p>
-        <p class="why-text">Muon's benefits in reinforcement learning can improve the performance of agents in complex environments, making it a useful optimization technique for code and language models</p>
+        <p class="summary-text">VEHBench is a diagnostic benchmark for LLM-assisted vibration energy harvester design, evaluating four design roles. It reveals that LLM capability is strongly stage-dependent, with no single model consistently dominating the entire workflow.</p>
+        <p class="why-text">This benchmark matters for code because it provides a stage-aware foundation for evaluating LLMs in engineering workflows, particularly in designing vibration energy harvesters.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#agents</span><span class="tag">#efficiency</span><span class="tag">#fine-tuning</span></div>
-          <a class="read-link" href="http://arxiv.org/abs/2607.16169v1" target="_blank" rel="noopener">Read &rarr;</a>
+          <div class="tags"><span class="tag">#evals</span><span class="tag">#efficiency</span><span class="tag">#reasoning</span></div>
+          <a class="read-link" href="http://arxiv.org/abs/2607.18181v1" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
     </details>
@@ -529,32 +529,6 @@
       <summary>
         <div class="card-summary">
           <span class="index">07</span>
-          <div class="card-main">
-            <span class="headline">Fine-tune models at scale</span>
-            <div class="card-meta">
-              <span class="source">HuggingFace</span>
-              <span class="dot">·</span>
-              <span class="impact-dots" style="color:#0a84ff">●●○○○</span>
-              <span class="impact-label" style="color:#0a84ff">Noteworthy</span>
-            </div>
-          </div>
-          <span class="chevron">›</span>
-        </div>
-      </summary>
-      <div class="card-body">
-        <p class="summary-text">This release enables fine-tuning of video and image models using NVIDIA NeMo Automodel and Hugging Face Diffusers. It allows for efficient and scalable fine-tuning of large models on various datasets.</p>
-        <p class="why-text">This matters for code because it simplifies the process of adapting pre-trained models to specific tasks and datasets, making it more accessible to developers and practitioners.</p>
-        <div class="card-footer">
-          <div class="tags"><span class="tag">#fine-tuning</span><span class="tag">#efficiency</span><span class="tag">#multimodal</span></div>
-          <a class="read-link" href="https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel" target="_blank" rel="noopener">Read &rarr;</a>
-        </div>
-      </div>
-    </details>
-
-    <details class="card">
-      <summary>
-        <div class="card-summary">
-          <span class="index">08</span>
           <div class="card-main">
             <span class="headline">Shippy Agent Insights</span>
             <div class="card-meta">
@@ -568,10 +542,10 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Researchers built Shippy, an agent that can perform tasks, to learn about building agents. The project revealed key insights into agent development and deployment.</p>
-        <p class="why-text">This research matters because it informs the development of more effective and efficient agents for real-world applications.</p>
+        <p class="summary-text">Researchers built Shippy, an agent that can perform tasks, to understand how to build more advanced agents. The project revealed key insights into agent development, including the importance of robustness and generalization.</p>
+        <p class="why-text">This research matters because it informs the development of more capable and reliable agents that can interact with humans and environments in complex ways.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#agents</span><span class="tag">#efficiency</span></div>
+          <div class="tags"><span class="tag">#agents</span><span class="tag">#reasoning</span><span class="tag">#efficiency</span></div>
           <a class="read-link" href="https://huggingface.co/blog/allenai/shippy-tech-blog" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
@@ -580,7 +554,7 @@
     <details class="card">
       <summary>
         <div class="card-summary">
-          <span class="index">09</span>
+          <span class="index">08</span>
           <div class="card-main">
             <span class="headline">Cars24 Scales Conversations</span>
             <div class="card-meta">
@@ -594,8 +568,8 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Cars24 uses OpenAI-powered voice and chat agents to handle over 1 million monthly conversation minutes. The implementation recovered 12% of lost leads and improved workflows across the company.</p>
-        <p class="why-text">This matters for code because it demonstrates the potential of AI-powered chat agents to improve customer engagement and sales at scale.</p>
+        <p class="summary-text">Cars24 uses OpenAI-powered voice and chat agents to handle over 1 million monthly conversation minutes. This has helped recover 12% of lost leads and streamline workflows across the company.</p>
+        <p class="why-text">This matters for code because it demonstrates the potential of AI-powered chat agents to improve customer engagement and workflow efficiency at scale.</p>
         <div class="card-footer">
           <div class="tags"><span class="tag">#agents</span><span class="tag">#conversations</span><span class="tag">#efficiency</span></div>
           <a class="read-link" href="https://openai.com/index/cars24" target="_blank" rel="noopener">Read &rarr;</a>
@@ -606,7 +580,7 @@
     <details class="card">
       <summary>
         <div class="card-summary">
-          <span class="index">10</span>
+          <span class="index">09</span>
           <div class="card-main">
             <span class="headline">DeepMind's Bioresilience Approach</span>
             <div class="card-meta">
@@ -620,10 +594,10 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">DeepMind and Isomorphic Labs are sharing their joint approach to bioresilience, focusing on AI models. This approach aims to enhance the resilience of biological systems using AI technology.</p>
-        <p class="why-text">This matters for code and language models as it explores the intersection of AI and biology, potentially leading to innovative applications in biotechnology and healthcare.</p>
+        <p class="summary-text">DeepMind and Isomorphic Labs are sharing their joint approach to bioresilience, focusing on the intersection of biology and AI. This approach aims to leverage AI models to improve bioresilience and mitigate potential biological risks.</p>
+        <p class="why-text">This approach matters because it highlights the potential of AI to improve bioresilience and mitigate biological risks, which is crucial for developing safe and responsible AI systems</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#safety</span><span class="tag">#efficiency</span><span class="tag">#agents</span></div>
+          <div class="tags"><span class="tag">#safety</span><span class="tag">#agents</span></div>
           <a class="read-link" href="https://deepmind.google/blog/our-approach-to-bioresilience/" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
@@ -632,7 +606,7 @@
     <details class="card">
       <summary>
         <div class="card-summary">
-          <span class="index">11</span>
+          <span class="index">10</span>
           <div class="card-main">
             <span class="headline">Muse Spark API Released</span>
             <div class="card-meta">
@@ -646,10 +620,10 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Meta AI introduces the Muse Spark Meta Model API, a new interface for accessing AI models. The API provides developers with a simple way to integrate Meta's language models into their applications.</p>
-        <p class="why-text">This API matters because it allows developers to easily integrate Meta's language models into their code, enabling more efficient and scalable language processing at scale.</p>
+        <p class="summary-text">Meta AI introduces the Muse Spark Meta Model API, a new interface for accessing AI models. The API provides developers with a simple way to integrate Meta's models into their applications.</p>
+        <p class="why-text">This API matters because it allows developers to easily integrate Meta's AI models into their code, enabling more efficient and scalable language model deployment.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#language-design</span><span class="tag">#fine-tuning</span><span class="tag">#efficiency</span></div>
+          <div class="tags"><span class="tag">#fine-tuning</span><span class="tag">#efficiency</span><span class="tag">#language-design</span></div>
           <a class="read-link" href="https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
@@ -658,7 +632,7 @@
     <details class="card">
       <summary>
         <div class="card-summary">
-          <span class="index">12</span>
+          <span class="index">11</span>
           <div class="card-main">
             <span class="headline">Tribe V2 Model Released</span>
             <div class="card-meta">
@@ -672,10 +646,10 @@
         </div>
       </summary>
       <div class="card-body">
-        <p class="summary-text">Meta AI introduces Tribe V2, a brain predictive foundation model that aims to improve language understanding. The model is designed to better capture human-like reasoning and decision-making processes.</p>
-        <p class="why-text">This matters for language models as it enables more accurate and human-like language understanding, which can be applied to various applications such as chatbots and virtual assistants.</p>
+        <p class="summary-text">Meta AI introduces Tribe V2, a brain predictive foundation model that enhances language understanding. The model demonstrates improved performance in various tasks, showcasing its potential for real-world applications.</p>
+        <p class="why-text">This matters for language models as it enables more accurate and human-like language understanding, which can be applied to various natural language processing tasks at scale.</p>
         <div class="card-footer">
-          <div class="tags"><span class="tag">#reasoning</span><span class="tag">#language-design</span><span class="tag">#fine-tuning</span></div>
+          <div class="tags"><span class="tag">#language-design</span><span class="tag">#fine-tuning</span><span class="tag">#reasoning</span></div>
           <a class="read-link" href="https://ai.meta.com/blog/tribe-v2-brain-predictive-foundation-model/" target="_blank" rel="noopener">Read &rarr;</a>
         </div>
       </div>
